@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TowerBollocks.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{1E8C936E-BD2A-4F37-A507-2B953BD39FC1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TowerBollocks.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TowerBollocksEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{CCD392A7-3437-4F16-A6FD-29C507FE327B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TowerBollocks">
+			<UniqueIdentifier>{C76249A1-F8F0-4EC7-9254-0E57360D911D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TowerBollocks\TowerBollocks.Build.cs">
+			<Filter>Source\TowerBollocks</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TowerBollocks\TowerBollocks.cpp">
+			<Filter>Source\TowerBollocks</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TowerBollocks\TowerBollocks.h">
+			<Filter>Source\TowerBollocks</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TowerBollocks\TowerBollocksCharacter.cpp">
+			<Filter>Source\TowerBollocks</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TowerBollocks\TowerBollocksCharacter.h">
+			<Filter>Source\TowerBollocks</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TowerBollocks\TowerBollocksGameMode.cpp">
+			<Filter>Source\TowerBollocks</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TowerBollocks\TowerBollocksGameMode.h">
+			<Filter>Source\TowerBollocks</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TowerBollocks\TowerBollocksHUD.cpp">
+			<Filter>Source\TowerBollocks</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TowerBollocks\TowerBollocksHUD.h">
+			<Filter>Source\TowerBollocks</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TowerBollocks\TowerBollocksProjectile.cpp">
+			<Filter>Source\TowerBollocks</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TowerBollocks\TowerBollocksProjectile.h">
+			<Filter>Source\TowerBollocks</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
