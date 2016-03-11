@@ -32,4 +32,15 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = Interaction)
 		void EventEndHover();
 
+	UFUNCTION(BlueprintCallable, Category = Interaction)
+		void BeginHold();
+
+	UFUNCTION(BlueprintCallable, Category = Interaction)
+		void EndHold();
+
+private: 
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* block;
+
+	bool used;
 };

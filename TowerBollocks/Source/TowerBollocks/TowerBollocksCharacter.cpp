@@ -61,7 +61,25 @@ void ATowerBollocksCharacter::SetupPlayerInputComponent(class UInputComponent* I
 
 void ATowerBollocksCharacter::OnClick()
 {
+	FHitResult hit(ForceInit);
+	FVector CamLoc;
+	FRotator CamRot;
 
+	Controller->GetActorEyesViewPoint(CamLoc, CamRot);
+	const FVector start = CamLoc;
+	const FVector dir = CamRot.Vector();
+	const FVector end = start + dir * 100;
+	FCollisionQueryParams TraceParams(FName(TEXT("HandTrace")), true, this);
+	TraceParams.bTraceAsyncScene = true;
+	TraceParams.bReturnPhysicalMaterial = true;
+	//GetWorld()->LineTraceSingle(hit, start, end, TraceParams, FCollisionObjectQueryParams());
+	GetWorld()->LineTraceSingleByObjectType(hit, start, end, FCollisionObjectQueryParams::AllDynamicObjects);
+	UE_LOG(LogTemp, Warning, TEXT("Fired"));
+	ABrickActor* brickson = Cast<ABrickActor>(hit.GetActor());
+	if (brickson != NULL)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("A brick is just a brick son"));
+	}
 }
 
 void ATowerBollocksCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, const FVector Location)
