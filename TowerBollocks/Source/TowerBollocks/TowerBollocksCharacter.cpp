@@ -26,24 +26,6 @@ ATowerBollocksCharacter::ATowerBollocksCharacter()
 	FirstPersonCameraComponent->RelativeLocation = FVector(0, 0, 64.f); // Position the camera
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 
-	// Create a mesh component that will be used when being viewed from a '1st person' view (when controlling this pawn)
-	Mesh1P = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh1P"));
-	Mesh1P->SetOnlyOwnerSee(true);
-	Mesh1P->AttachParent = FirstPersonCameraComponent;
-	Mesh1P->bCastDynamicShadow = false;
-	Mesh1P->CastShadow = false;
-
-	// Create a gun mesh component
-	FP_Gun = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FP_Gun"));
-	FP_Gun->SetOnlyOwnerSee(true);			// only the owning player will see this mesh
-	FP_Gun->bCastDynamicShadow = false;
-	FP_Gun->CastShadow = false;
-	FP_Gun->AttachTo(Mesh1P, TEXT("GripPoint"), EAttachLocation::SnapToTargetIncludingScale, true);
-
-
-	// Default offset from the character location for projectiles to spawn
-	GunOffset = FVector(100.0f, 30.0f, 10.0f);
-
 	// Note: The ProjectileClass and the skeletal mesh/anim blueprints for Mesh1P are set in the
 	// derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -62,7 +44,7 @@ void ATowerBollocksCharacter::SetupPlayerInputComponent(class UInputComponent* I
 	//InputComponent->BindTouch(EInputEvent::IE_Pressed, this, &ATowerBollocksCharacter::TouchStarted);
 	if( EnableTouchscreenMovement(InputComponent) == false )
 	{
-		InputComponent->BindAction("Fire", IE_Pressed, this, &ATowerBollocksCharacter::OnFire);
+		InputComponent->BindAction("Fire", IE_Pressed, this, &ATowerBollocksCharacter::OnClick);
 	}
 	
 	InputComponent->BindAxis("MoveForward", this, &ATowerBollocksCharacter::MoveForward);
@@ -77,39 +59,8 @@ void ATowerBollocksCharacter::SetupPlayerInputComponent(class UInputComponent* I
 	InputComponent->BindAxis("LookUpRate", this, &ATowerBollocksCharacter::LookUpAtRate);
 }
 
-void ATowerBollocksCharacter::OnFire()
-{ 
-	// try and fire a projectile
-	if (ProjectileClass != NULL)
-	{
-		const FRotator SpawnRotation = GetControlRotation();
-		// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-		const FVector SpawnLocation = GetActorLocation() + SpawnRotation.RotateVector(GunOffset);
-
-		UWorld* const World = GetWorld();
-		if (World != NULL)
-		{
-			// spawn the projectile at the muzzle
-			World->SpawnActor<ATowerBollocksProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
-		}
-	}
-
-	// try and play the sound if specified
-	if (FireSound != NULL)
-	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	}
-
-	// try and play a firing animation if specified
-	if(FireAnimation != NULL)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-		if(AnimInstance != NULL)
-		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
-		}
-	}
+void ATowerBollocksCharacter::OnClick()
+{
 
 }
 
@@ -133,7 +84,7 @@ void ATowerBollocksCharacter::EndTouch(const ETouchIndex::Type FingerIndex, cons
 	}
 	if( ( FingerIndex == TouchItem.FingerIndex ) && (TouchItem.bMoved == false) )
 	{
-		OnFire();
+		OnClick();
 	}
 	TouchItem.bIsPressed = false;
 }
