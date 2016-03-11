@@ -233,4 +233,27 @@
 [2016.03.11-22.18.31:575][279]Warning: HotReload failed, recompile failed
 [2016.03.11-22.19.49:259][231]LogHotReload: New module detected: UE4Editor-TowerBollocks-6697.dll
 [2016.03.11-22.19.49:274][232]LogHotReload: Starting Hot-Reload from IDE
-[2016.03.11-22.19.49:290][232]LogActorComponent: UnregisterComponent: (
+[2016.03.11-22.19.49:290][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.11-22.19.49:290][232]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.11-22.19.49:315][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000217FE1B96C0
+[2016.03.11-22.19.49:349][232]LogContentBrowser: Native class hierarchy updated for 'TowerBollocks' in 0.0013 seconds. Added 4 classes and 2 folders.
+[2016.03.11-22.19.49:351][232]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2016.03.11-22.19.49:607][232]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 1898 classes and 342 folders.
+[2016.03.11-22.21.28:152][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-22.21.28:152][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.11-22.21.28:152][619]PIE: New page: PIE session: FirstPersonExampleMap (Mar 12, 2016, 12:21:28 AM)
+[2016.03.11-22.21.28:152][619]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.11-22.21.28:169][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016843s)
+[2016.03.11-22.21.28:170][619]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.11-22.21.28:170][619]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2016.03.11-22.21.28:170][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018384s)
+[2016.03.11-22.21.28:256][619]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.11-22.21.28:260][619]LogInit: FAudioDevice initialized.
+[2016.03.11-22.21.28:289][619]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.11-22.21.28:293][619]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.11-23.21.28
+[2016.03.11-22.21.28:293][619]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.11-22.21.28:293][619]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.11-22.21.28:293][619]LogWorld: Bringing up level for play took: 0.003854
+[2016.03.11-22.21.28:294][619]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.755
+[2016.03.11-22.21.28:294][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-22.21.29:453][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.Firs
