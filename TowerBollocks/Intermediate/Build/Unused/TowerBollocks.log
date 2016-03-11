@@ -1,0 +1,16 @@
+﻿Build started 2016-03-11 22:14:21.
+     1>Project "D:\Files\Unreal\ByggaSaker\TowerBollocks\Intermediate\ProjectFiles\TowerBollocks.vcxproj" on node 3 (Build target(s)).
+     1>Build:
+         "D:\Programs\Programming\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" TowerBollocksEditor Win64 Development "D:\Files\Unreal\ByggaSaker\TowerBollocks\TowerBollocks.uproject" -rocket -waitmutex -2015
+         Compiling game modules for hot reload
+         Performing 2 actions (4 in parallel)
+         TowerBollocksCharacter.cpp
+         [2/2] Link UE4Editor-TowerBollocks-921.dll
+            Creating library D:\Files\Unreal\ByggaSaker\TowerBollocks\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TowerBollocks-921.lib and object D:\Files\Unreal\ByggaSaker\TowerBollocks\Intermediate/Build/Win64\UE4Editor\Development\UE4Editor-TowerBollocks-921.exp
+         -------- End Detailed Actions Stats -----------------------------------------------------------
+         Total build time: 2,63 seconds
+     1>Done Building Project "D:\Files\Unreal\ByggaSaker\TowerBollocks\Intermediate\ProjectFiles\TowerBollocks.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.71

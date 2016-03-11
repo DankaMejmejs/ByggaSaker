@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TowerBollocks.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{1E8C936E-BD2A-4F37-A507-2B953BD39FC1}</UniqueIdentifier>
+			<UniqueIdentifier>{C972B044-B963-473A-91B0-08B4A77D7D06}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TowerBollocks.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{CCD392A7-3437-4F16-A6FD-29C507FE327B}</UniqueIdentifier>
+			<UniqueIdentifier>{FC9F79FF-22F3-421C-8ADB-F7D347FE39F5}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TowerBollocks">
-			<UniqueIdentifier>{C76249A1-F8F0-4EC7-9254-0E57360D911D}</UniqueIdentifier>
+			<UniqueIdentifier>{3AE81B87-3A6D-4D96-9858-7302CB16BA9B}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TowerBollocks\TowerBollocks.Build.cs">
 			<Filter>Source\TowerBollocks</Filter>
