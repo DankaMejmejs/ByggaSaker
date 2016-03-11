@@ -1,362 +1,236 @@
-﻿[2016.03.11-20.38.35:990][  0]Log file open, 03/11/16 21:38:35
-[2016.03.11-20.38.35:990][  0]LogInit:Display: Running engine for game: TowerBollocks
-[2016.03.11-20.38.35:990][  0]LogPlatformFile: Not using cached read wrapper
-[2016.03.11-20.38.35:990][  0]LogInit:Display: RandInit(573674935) SRandInit(573674936).
-[2016.03.11-20.38.35:990][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.03.11-20.38.35:990][  0]LogStats: Stats thread started at 0.067967
-[2016.03.11-20.38.35:990][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.03.11-20.38.35:990][  0]LogInit: API Version: 2758231
-[2016.03.11-20.38.35:990][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
-[2016.03.11-20.38.35:990][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.03.11-20.38.35:990][  0]LogInit: Build Configuration: Development
-[2016.03.11-20.38.35:990][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.03.11-20.38.35:990][  0]LogInit: Command line:  
-[2016.03.11-20.38.35:990][  0]LogInit: Base directory: D:/Programs/Programming/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.03.11-20.38.35:990][  0]LogInit: Rocket: 1
-[2016.03.11-20.38.35:995][  0]LogInit: Using libcurl 7.41.0
-[2016.03.11-20.38.35:995][  0]LogInit:  - built for x86_64-pc-win32
-[2016.03.11-20.38.35:995][  0]LogInit:  - supports SSL with WinSSL
-[2016.03.11-20.38.35:995][  0]LogInit:  - other features:
-[2016.03.11-20.38.35:995][  0]LogInit:      CURL_VERSION_SSL
-[2016.03.11-20.38.35:995][  0]LogInit:      CURL_VERSION_IPV6
-[2016.03.11-20.38.35:995][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.03.11-20.38.35:995][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.03.11-20.38.35:995][  0]LogInit:      CURL_VERSION_IDN
-[2016.03.11-20.38.35:995][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.03.11-20.38.35:995][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.03.11-20.38.35:995][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.03.11-20.38.35:995][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.03.11-20.38.35:996][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.03.11-20.38.36:001][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.03.11-20.38.36:006][  0]LogInit: Object subsystem initialized
-[2016.03.11-20.38.36:007][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.11-20.38.36:007][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.03.11-20.38.36:013][  0]LogInit: Computer: MEI
-[2016.03.11-20.38.36:013][  0]LogInit: User: MattiasAndersson
-[2016.03.11-20.38.36:013][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.03.11-20.38.36:013][  0]LogInit: High frequency timer resolution =3.906241 MHz
-[2016.03.11-20.38.36:013][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2016.03.11-20.38.36:013][  0]LogMemory: Platform Memory Stats for Windows
-[2016.03.11-20.38.36:013][  0]LogMemory: Process Physical Memory: 56.15 MB used, 56.15 MB peak
-[2016.03.11-20.38.36:013][  0]LogMemory: Process Virtual Memory: 56.82 MB used, 56.82 MB peak
-[2016.03.11-20.38.36:013][  0]LogMemory: Physical Memory: 4137.75 MB used, 16334.32 MB total
-[2016.03.11-20.38.36:013][  0]LogMemory: Virtual Memory: 382.84 MB used, 134217728.00 MB total
-[2016.03.11-20.38.36:045][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
-[2016.03.11-20.38.36:402][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
-[2016.03.11-20.38.36:402][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 1 output[s]
-[2016.03.11-20.38.36:403][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.03.11-20.38.36:403][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 0 output[s]
-[2016.03.11-20.38.36:403][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.03.11-20.38.36:406][  0]LogD3D11RHI: !Direct3DDevice
-[2016.03.11-20.38.36:407][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.03.11-20.38.36:417][  0]LogD3D11RHI: Async texture creation enabled
-[2016.03.11-20.38.36:430][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/Intermediate/Shaders/WorkingDirectory/7932/).
-[2016.03.11-20.38.36:431][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MATTIA~1/AppData/Local/Temp/UnrealShaderWorkingDir/35666EFA4B55BF0EFE67CD8ED44A3111/'.
-[2016.03.11-20.38.36:431][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.03.11-20.38.37:066][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.03.11-20.38.37:069][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.03.11-20.38.37:072][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.03.11-20.38.37:075][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.03.11-20.38.37:079][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.03.11-20.38.37:081][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.03.11-20.38.37:083][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.03.11-20.38.37:085][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.03.11-20.38.37:087][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.03.11-20.38.37:089][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.03.11-20.38.37:090][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.03.11-20.38.37:095][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.03.11-20.38.37:095][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.03.11-20.38.37:095][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.03.11-20.38.37:110][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.03.11-20.38.37:113][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.03.11-20.38.37:115][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.03.11-20.38.37:118][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.03.11-20.38.37:118][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.11-20.38.37:180][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.03.11-20.38.37:213][  0]LogDerivedDataCache: Loaded boot cache 0.03s 43MB C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.11-20.38.37:213][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.03.11-20.38.37:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.03.11-20.38.37:213][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.03.11-20.38.37:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.03.11-20.38.37:214][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.03.11-20.38.37:259][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.03.11-20.38.37:271][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.03.11-20.38.37:411][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.11-20.38.37:413][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.03.11-20.38.37:494][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.03.11-20.38.37:494][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.03.11-20.38.37:660][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.03.11-20.38.38:357][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.03.11-20.38.38:424][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
-[2016.03.11-20.38.38:425][  0]LogLinker:Warning: Asset '../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.03.11-20.38.38:495][  0]LogLinker:Warning: Asset '../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.03.11-20.38.38:524][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
-[2016.03.11-20.38.38:525][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
-[2016.03.11-20.38.38:586][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
-[2016.03.11-20.38.38:703][  0]SourceControl: Info Source control is disabled
-[2016.03.11-20.38.38:726][  0]SourceControl: Info Source control is disabled
-[2016.03.11-20.38.38:737][  0]SourceControl: Info Source control is disabled
-[2016.03.11-20.38.38:746][  0]SourceControl: Info Source control is disabled
-[2016.03.11-20.38.38:929][  0]LogObj: 32280 objects as part of root set at end of initial load.
-[2016.03.11-20.38.38:929][  0]LogUObjectAllocator: 7412288 out of 0 bytes used by permanent object pool.
-[2016.03.11-20.38.38:972][  0]LogEngine: Initializing Engine...
-[2016.03.11-20.38.38:974][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.03.11-20.38.38:975][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.03.11-20.38.39:061][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.03.11-20.38.39:067][  0]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.11-20.38.39:073][  0]LogInit: FAudioDevice initialized.
-[2016.03.11-20.38.39:091][  0]LogDerivedDataCache: Saved boot cache 0.02s 43MB C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.11-20.38.39:093][  0]LogInit: Texture streaming: Enabled
-[2016.03.11-20.38.39:096][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.03.11-20.38.39:096][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.03.11-20.38.39:096][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7e4384a44e35e80e9abae4a1743bb6c3|31b81c4c055e4cb8b177921afbb09a3c|2a65b65a-1eb6-4f86-8cad-8e48130d1610
-[2016.03.11-20.38.39:096][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.03.11-20.38.39:103][  0]LogInit: Transaction tracking system initialized
-[2016.03.11-20.38.39:121][  0]BlueprintLog: New page: Editor Load
-[2016.03.11-20.38.39:195][  0]LocalizationService: Info Localization service is disabled
-[2016.03.11-20.38.39:259][  0]LogConsoleResponse:Display: 
-[2016.03.11-20.38.39:343][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.03.11-20.38.39:384][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Content/' took 0.01s
-[2016.03.11-20.38.39:384][  0]SourceControl: Info Source control is disabled
-[2016.03.11-20.38.39:384][  0]Cmd: MAP LOAD FILE="../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.03.11-20.38.39:385][  0]LightingResults: New page: Lighting Build
-[2016.03.11-20.38.39:387][  0]MapCheck: New page: Map Check
-[2016.03.11-20.38.39:387][  0]LightingResults: New page: Lighting Build
-[2016.03.11-20.38.39:396][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001DE3A795120
-[2016.03.11-20.38.39:470][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
-[2016.03.11-20.38.39:520][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.03.11-20.38.39:524][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.11-20.38.39:525][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.03.11-20.38.39:595][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.961ms to complete.
-[2016.03.11-20.38.39:595][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.210
-[2016.03.11-20.38.39:683][  0]LogCollectionManager: Loaded 0 collections in 0.001345 seconds
-[2016.03.11-20.38.39:719][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Saved/Collections/' took 0.01s
-[2016.03.11-20.38.39:719][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Content/Developers/MattiasAndersson/Collections/' took 0.01s
-[2016.03.11-20.38.39:719][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Content/Collections/' took 0.01s
-[2016.03.11-20.38.39:719][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2016.03.11-20.38.39:725][  0]LogContentBrowser: Native class hierarchy populated in 0.0056 seconds. Added 1897 classes and 340 folders.
-[2016.03.11-20.38.39:731][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2016.03.11-20.38.39:774][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2016.03.11-20.38.39:781][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2016.03.11-20.38.39:795][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.03.11-20.38.39:799][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.03.11-20.38.39:821][  0]LogLoad: Full Startup: 4.40 seconds (BP compile: 0.04 seconds)
-[2016.03.11-20.38.39:830][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.03.11-20.38.39:833][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.03.11-20.38.39:875][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.03.11-20.38.39:983][  0]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:2).
-[2016.03.11-20.38.40:077][  2]LogAssetRegistry: Asset discovery search completed in 1.5018 seconds
-[2016.03.11-20.38.40:077][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.03.11-20.38.40:077][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000430 seconds (updated 0 objects)
-[2016.03.11-20.38.48:455][  5]LogVSAccessor:Warning: Couldn't access Visual Studio
-[2016.03.11-20.38.48:458][  5]Recompiling TowerBollocks...
-[2016.03.11-20.38.48:458][  5]Launching UnrealBuildTool... [D:/Programs/Programming/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe TowerBollocks -ModuleWithSuffix TowerBollocks 1659 Win64 Development -editorrecompile -canskiplink "D:/Files/Unreal/ByggaSaker/TowerBollocks/TowerBollocks.uproject" -rocket  -rocket -2015]
-[2016.03.11-20.38.48:473][  5]Warning: Starting HotReload took  0.0s.
-[2016.03.11-20.38.53:696][611]CompilerResultsLog: New page: Compilation - Mar 11, 2016, 10:38:53 PM
-[2016.03.11-20.38.53:696][611]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
-[2016.03.11-20.38.53:696][611]CompilerResultsLog: Info Creating makefile for hot reloading TowerBollocks (no existing makefile)
-[2016.03.11-20.38.53:696][611]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.03.11-20.38.53:696][611]CompilerResultsLog: Info Target is up to date.
-[2016.03.11-20.38.53:696][611]LogMainFrame: MainFrame: Module compiling took 5.242 seconds
-[2016.03.11-20.38.55:166][783]Running D:/Programs/Programming/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Files/Unreal/ByggaSaker/TowerBollocks/TowerBollocks.uproject" -game -rocket -progress -2015
-[2016.03.11-20.38.55:481][783]Discovering modules, targets and source code for game...
-[2016.03.11-20.43.14:619][962]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.03.11-20.43.14:909][962]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 107 classes and 0 folders.
-[2016.03.11-20.43.15:266][962]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
-[2016.03.11-20.43.20:308][414]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
-[2016.03.11-20.44.15:070][876]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2016.03.11-20.44.15:102][877]LogMaterial: Missing cached shader map for material Material_1, compiling. 
-[2016.03.11-20.44.15:128][878]LogMaterial: Missing cached shader map for material Material_2, compiling. 
-[2016.03.11-20.44.15:149][879]LogMaterial: Missing cached shader map for material Material_3, compiling. 
-[2016.03.11-20.45.58:658][ 26]LogLinker:Warning: Can't find file '/Script/TP_FirstPerson'
-[2016.03.11-20.45.58:658][ 26]LogLinker:Warning: Can't find file '/Script/TP_FirstPerson'
-[2016.03.11-20.45.58:658][ 26]LogUObjectGlobals:Warning: Failed to find object 'Object /Script/TP_FirstPerson.TP_FirstPersonCharacter'
-[2016.03.11-20.46.11:559][200]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksCharacter.h'
-[2016.03.11-20.46.11:656][200]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksCharacter.cpp'
-[2016.03.11-20.47.33:175][781]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksCharacter.h'
-[2016.03.11-20.47.33:284][781]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksCharacter.cpp'
-[2016.03.11-20.49.00:109][371]LogHotReload: New module detected: UE4Editor-TowerBollocks-5001.dll
-[2016.03.11-20.49.00:450][373]LogHotReload: Starting Hot-Reload from IDE
-[2016.03.11-20.49.00:471][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
-[2016.03.11-20.49.00:471][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.11-20.49.00:493][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001DE6E68C860
-[2016.03.11-20.49.00:494][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001DE2A5E8900
-[2016.03.11-20.49.00:495][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001DE73226F20
-[2016.03.11-20.49.00:529][373]LogClass: Could not find existing class TowerBollocksCharacter in package /Script/TowerBollocks for HotReload, assuming new class
-[2016.03.11-20.49.00:538][373]LogHotReload: Re-instancing TowerBollocksCharacter after hot-reload.
-[2016.03.11-20.49.00:538][373]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
-[2016.03.11-20.49.00:539][373]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh1P
-[2016.03.11-20.49.00:714][373]LogContentBrowser: Native class hierarchy updated for 'TowerBollocks' in 0.0012 seconds. Added 4 classes and 2 folders.
-[2016.03.11-20.49.00:716][373]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2016.03.11-20.49.01:004][373]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 1898 classes and 342 folders.
-[2016.03.11-20.49.03:486][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-20.49.03:486][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.11-20.49.03:486][473]PIE: New page: PIE session: FirstPersonExampleMap (Mar 11, 2016, 10:49:03 PM)
-[2016.03.11-20.49.03:486][473]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2016.03.11-20.49.03:505][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019142s)
-[2016.03.11-20.49.03:505][473]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.03.11-20.49.03:506][473]LogPlayLevel: PIE: World Init took: (0.000673s)
-[2016.03.11-20.49.03:506][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020060s)
-[2016.03.11-20.49.03:586][473]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.11-20.49.03:590][473]LogInit: FAudioDevice initialized.
-[2016.03.11-20.49.03:633][473]LogWorld: Game class is 'TowerBollocksGameMode'
-[2016.03.11-20.49.03:639][473]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.11-21.49.03
-[2016.03.11-20.49.03:639][473]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-20.49.03:639][473]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-20.49.03:640][473]LogWorld: Bringing up level for play took: 0.005864
-[2016.03.11-20.49.03:641][473]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.405
-[2016.03.11-20.49.03:641][473]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-20.49.09:324][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-20.49.09:384][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-20.49.09:415][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001DE0ABF98A0
-[2016.03.11-20.50.01:544][376]LogHotReload: New module detected: UE4Editor-TowerBollocks-1742.dll
-[2016.03.11-20.50.01:887][378]LogHotReload: Starting Hot-Reload from IDE
-[2016.03.11-20.50.01:955][378]LogContentBrowser: Native class hierarchy updated for 'TowerBollocks' in 0.0012 seconds. Added 4 classes and 2 folders.
-[2016.03.11-20.50.01:958][378]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2016.03.11-20.50.02:205][378]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 1898 classes and 342 folders.
-[2016.03.11-20.51.05:548][568]LogHotReload: New module detected: UE4Editor-TowerBollocks-7537.dll
-[2016.03.11-20.51.05:890][570]LogHotReload: Starting Hot-Reload from IDE
-[2016.03.11-20.51.05:966][570]LogClass: Could not find existing class TowerBollocksCharacter in package /Script/TowerBollocks for HotReload, assuming new class
-[2016.03.11-20.51.05:974][570]LogHotReload: Re-instancing TowerBollocksCharacter after hot-reload.
-[2016.03.11-20.51.06:142][570]LogContentBrowser: Native class hierarchy updated for 'TowerBollocks' in 0.0012 seconds. Added 4 classes and 2 folders.
-[2016.03.11-20.51.06:144][570]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2016.03.11-20.51.06:370][570]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 1898 classes and 342 folders.
-[2016.03.11-20.51.28:137][748]Recompiling TowerBollocks...
-[2016.03.11-20.51.28:137][748]Launching UnrealBuildTool... [D:/Programs/Programming/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe TowerBollocks -ModuleWithSuffix TowerBollocks 1903 Win64 Development -editorrecompile -canskiplink "D:/Files/Unreal/ByggaSaker/TowerBollocks/TowerBollocks.uproject" -rocket  -rocket -2015]
-[2016.03.11-20.51.28:152][748]Warning: Starting HotReload took  0.0s.
-[2016.03.11-20.51.40:656][214]CompilerResultsLog: New page: Compilation - Mar 11, 2016, 10:51:40 PM
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info Creating makefile for hot reloading TowerBollocks (modules to compile have changed)
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info Compiling game modules for hot reload
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info Parsing headers for TowerBollocksEditor
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info   Running UnrealHeaderTool "D:/Files/Unreal/ByggaSaker/TowerBollocks/TowerBollocks.uproject" "D:\Files\Unreal\ByggaSaker\TowerBollocks\Intermediate\Build\Win64\TowerBollocksEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info Reflection code generated for TowerBollocksEditor in 5,2849678 seconds
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info TowerBollocksCharacter.cpp
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info TowerBollocksGameMode.cpp
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info TowerBollocks.generated.cpp
-[2016.03.11-20.51.40:657][214]CompilerResultsLog:Error: Error D:\Files\Unreal\ByggaSaker\TowerBollocks\Source\TowerBollocks\TowerBollocksCharacter.cpp(58) : error C2039: 'OnFire': is not a member of 'ATowerBollocksCharacter'
-[2016.03.11-20.51.40:657][214]CompilerResultsLog:Error: Error d:\files\unreal\byggasaker\towerbollocks\source\towerbollocks\TowerBollocksCharacter.h(9) : note: see declaration of 'ATowerBollocksCharacter'
-[2016.03.11-20.51.40:657][214]CompilerResultsLog:Error: Error D:\Files\Unreal\ByggaSaker\TowerBollocks\Source\TowerBollocks\TowerBollocksCharacter.cpp(58) : error C2065: 'OnFire': undeclared identifier
-[2016.03.11-20.51.40:657][214]CompilerResultsLog:Error: Error D:\Files\Unreal\ByggaSaker\TowerBollocks\Source\TowerBollocks\TowerBollocksCharacter.cpp(98) : error C3861: 'OnFire': identifier not found
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: D:\Files\Unreal\ByggaSaker\TowerBollocks\Binaries\Win64\UE4Editor-TowerBollocks-1903.dll
-[2016.03.11-20.51.40:657][214]CompilerResultsLog: Info Total build time: 12,46 seconds
-[2016.03.11-20.51.40:657][214]LogMainFrame: MainFrame: Module compiling took 12.522 seconds
-[2016.03.11-20.51.40:657][214]Warning: HotReload failed, recompile failed
-[2016.03.11-20.52.23:157][491]LogHotReload: New module detected: UE4Editor-TowerBollocks-1292.dll
-[2016.03.11-20.52.23:498][493]LogHotReload: Starting Hot-Reload from IDE
-[2016.03.11-20.52.23:590][493]LogContentBrowser: Native class hierarchy updated for 'TowerBollocks' in 0.0011 seconds. Added 4 classes and 2 folders.
-[2016.03.11-20.52.23:592][493]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2016.03.11-20.52.23:855][493]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 1898 classes and 342 folders.
-[2016.03.11-20.52.27:202][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-20.52.27:202][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.11-20.52.27:202][688]PIE: New page: PIE session: FirstPersonExampleMap (Mar 11, 2016, 10:52:27 PM)
-[2016.03.11-20.52.27:202][688]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2016.03.11-20.52.27:220][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017514s)
-[2016.03.11-20.52.27:220][688]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.03.11-20.52.27:221][688]LogPlayLevel: PIE: World Init took: (0.000930s)
-[2016.03.11-20.52.27:221][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018737s)
-[2016.03.11-20.52.27:303][688]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.11-20.52.27:306][688]LogInit: FAudioDevice initialized.
-[2016.03.11-20.52.27:336][688]LogWorld: Game class is 'TowerBollocksGameMode'
-[2016.03.11-20.52.27:340][688]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.11-21.52.27
-[2016.03.11-20.52.27:340][688]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-20.52.27:340][688]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-20.52.27:340][688]LogWorld: Bringing up level for play took: 0.003933
-[2016.03.11-20.52.27:342][688]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.705
-[2016.03.11-20.52.27:342][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-20.52.29:654][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-20.52.29:708][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-20.52.29:737][962]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001DE084EC5E0
-[2016.03.11-21.03.00:412][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.03.00:412][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.11-21.03.00:412][781]PIE: New page: PIE session: FirstPersonExampleMap (Mar 11, 2016, 11:03:00 PM)
-[2016.03.11-21.03.00:412][781]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2016.03.11-21.03.00:429][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016340s)
-[2016.03.11-21.03.00:430][781]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.03.11-21.03.00:430][781]LogPlayLevel: PIE: World Init took: (0.001325s)
-[2016.03.11-21.03.00:430][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018053s)
-[2016.03.11-21.03.00:484][781]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.11-21.03.00:488][781]LogInit: FAudioDevice initialized.
-[2016.03.11-21.03.00:519][781]LogWorld: Game class is 'TowerBollocksGameMode'
-[2016.03.11-21.03.00:524][781]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.11-22.03.00
-[2016.03.11-21.03.00:524][781]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-21.03.00:524][781]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-21.03.00:524][781]LogWorld: Bringing up level for play took: 0.004355
-[2016.03.11-21.03.00:525][781]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.986
-[2016.03.11-21.03.00:525][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.03.03:758][167]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.03.03:815][167]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.03.03:843][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001DE5D9BE5C0
-[2016.03.11-21.05.08:302][403]LogHotReload: New module detected: UE4Editor-TowerBollocks-6689.dll
-[2016.03.11-21.05.08:313][404]LogHotReload: Starting Hot-Reload from IDE
-[2016.03.11-21.05.08:366][404]LogClass: Could not find existing class TowerBollocksCharacter in package /Script/TowerBollocks for HotReload, assuming new class
-[2016.03.11-21.05.08:373][404]LogHotReload: Re-instancing TowerBollocksCharacter after hot-reload.
-[2016.03.11-21.05.08:504][404]LogContentBrowser: Native class hierarchy updated for 'TowerBollocks' in 0.0012 seconds. Added 4 classes and 2 folders.
-[2016.03.11-21.05.08:506][404]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2016.03.11-21.05.08:749][404]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 1898 classes and 342 folders.
-[2016.03.11-21.05.13:379][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.05.13:379][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.11-21.05.13:379][553]PIE: New page: PIE session: FirstPersonExampleMap (Mar 11, 2016, 11:05:13 PM)
-[2016.03.11-21.05.13:380][553]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2016.03.11-21.05.13:396][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016627s)
-[2016.03.11-21.05.13:397][553]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.03.11-21.05.13:397][553]LogPlayLevel: PIE: World Init took: (0.000838s)
-[2016.03.11-21.05.13:398][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017789s)
-[2016.03.11-21.05.13:474][553]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.11-21.05.13:478][553]LogInit: FAudioDevice initialized.
-[2016.03.11-21.05.13:507][553]LogWorld: Game class is 'TowerBollocksGameMode'
-[2016.03.11-21.05.13:511][553]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.11-22.05.13
-[2016.03.11-21.05.13:511][553]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-21.05.13:511][553]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-21.05.13:511][553]LogWorld: Bringing up level for play took: 0.004105
-[2016.03.11-21.05.13:513][553]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.027
-[2016.03.11-21.05.13:513][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.05.18:920][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.05.18:973][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.05.19:000][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001DE184272E0
-[2016.03.11-21.05.49:441][829]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.05.49:441][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.11-21.05.49:441][829]PIE: New page: PIE session: FirstPersonExampleMap (Mar 11, 2016, 11:05:49 PM)
-[2016.03.11-21.05.49:441][829]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2016.03.11-21.05.49:458][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015938s)
-[2016.03.11-21.05.49:458][829]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.03.11-21.05.49:459][829]LogPlayLevel: PIE: World Init took: (0.000701s)
-[2016.03.11-21.05.49:459][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016845s)
-[2016.03.11-21.05.49:515][829]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.11-21.05.49:518][829]LogInit: FAudioDevice initialized.
-[2016.03.11-21.05.49:548][829]LogWorld: Game class is 'TowerBollocksGameMode'
-[2016.03.11-21.05.49:553][829]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.11-22.05.49
-[2016.03.11-21.05.49:553][829]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-21.05.49:553][829]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-21.05.49:553][829]LogWorld: Bringing up level for play took: 0.003842
-[2016.03.11-21.05.49:554][829]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.015
-[2016.03.11-21.05.49:554][829]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.06.03:023][443]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.06.03:080][443]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.06.03:113][443]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001DE6E28B920
-[2016.03.11-21.14.24:270][378]LogHotReload: New module detected: UE4Editor-TowerBollocks-921.dll
-[2016.03.11-21.14.24:612][380]LogHotReload: Starting Hot-Reload from IDE
-[2016.03.11-21.14.24:671][380]LogClass: Could not find existing class TowerBollocksCharacter in package /Script/TowerBollocks for HotReload, assuming new class
-[2016.03.11-21.14.24:682][380]LogHotReload: Re-instancing TowerBollocksCharacter after hot-reload.
-[2016.03.11-21.14.24:858][380]LogContentBrowser: Native class hierarchy updated for 'TowerBollocks' in 0.0018 seconds. Added 4 classes and 2 folders.
-[2016.03.11-21.14.24:862][380]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2016.03.11-21.14.25:098][380]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1898 classes and 342 folders.
-[2016.03.11-21.14.28:561][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.14.28:561][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.11-21.14.28:561][541]PIE: New page: PIE session: FirstPersonExampleMap (Mar 11, 2016, 11:14:28 PM)
-[2016.03.11-21.14.28:561][541]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2016.03.11-21.14.28:577][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015839s)
-[2016.03.11-21.14.28:578][541]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.03.11-21.14.28:578][541]LogPlayLevel: PIE: World Init took: (0.000794s)
-[2016.03.11-21.14.28:578][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016859s)
-[2016.03.11-21.14.28:653][541]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.11-21.14.28:657][541]LogInit: FAudioDevice initialized.
-[2016.03.11-21.14.28:685][541]LogWorld: Game class is 'TowerBollocksGameMode'
-[2016.03.11-21.14.28:691][541]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.11-22.14.28
-[2016.03.11-21.14.28:691][541]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-21.14.28:691][541]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.11-21.14.28:691][541]LogWorld: Bringing up level for play took: 0.004000
-[2016.03.11-21.14.28:692][541]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.847
-[2016.03.11-21.14.28:692][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.03.11-21.14.32:971][ 51]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPe
+﻿[2016.03.11-21.22.29:963][  0]Log file open, 03/11/16 22:22:29
+[2016.03.11-21.22.29:963][  0]LogInit:Display: Running engine for game: TowerBollocks
+[2016.03.11-21.22.29:963][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.11-21.22.29:963][  0]LogInit:Display: RandInit(-2074947130) SRandInit(-2074947129).
+[2016.03.11-21.22.29:963][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.11-21.22.29:963][  0]LogStats: Stats thread started at 0.067194
+[2016.03.11-21.22.29:963][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.11-21.22.29:963][  0]LogInit: API Version: 2758231
+[2016.03.11-21.22.29:963][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.11-21.22.29:963][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.11-21.22.29:963][  0]LogInit: Build Configuration: Development
+[2016.03.11-21.22.29:963][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.11-21.22.29:963][  0]LogInit: Command line:  
+[2016.03.11-21.22.29:963][  0]LogInit: Base directory: D:/Programs/Programming/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.11-21.22.29:963][  0]LogInit: Rocket: 1
+[2016.03.11-21.22.29:967][  0]LogInit: Using libcurl 7.41.0
+[2016.03.11-21.22.29:967][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.11-21.22.29:967][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.11-21.22.29:967][  0]LogInit:  - other features:
+[2016.03.11-21.22.29:967][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.11-21.22.29:967][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.11-21.22.29:967][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.11-21.22.29:967][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.11-21.22.29:967][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.11-21.22.29:967][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.11-21.22.29:967][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.11-21.22.29:967][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.11-21.22.29:967][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.11-21.22.29:967][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.11-21.22.29:972][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.11-21.22.29:977][  0]LogInit: Object subsystem initialized
+[2016.03.11-21.22.29:977][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.11-21.22.29:977][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.11-21.22.29:982][  0]LogInit: Computer: MEI
+[2016.03.11-21.22.29:982][  0]LogInit: User: MattiasAndersson
+[2016.03.11-21.22.29:982][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.11-21.22.29:982][  0]LogInit: High frequency timer resolution =3.906241 MHz
+[2016.03.11-21.22.29:982][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.03.11-21.22.29:982][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.11-21.22.29:982][  0]LogMemory: Process Physical Memory: 56.16 MB used, 56.16 MB peak
+[2016.03.11-21.22.29:982][  0]LogMemory: Process Virtual Memory: 58.75 MB used, 58.75 MB peak
+[2016.03.11-21.22.29:982][  0]LogMemory: Physical Memory: 4066.32 MB used, 16334.32 MB total
+[2016.03.11-21.22.29:982][  0]LogMemory: Virtual Memory: 384.78 MB used, 134217728.00 MB total
+[2016.03.11-21.22.30:015][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.11-21.22.30:343][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2016.03.11-21.22.30:343][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 1 output[s]
+[2016.03.11-21.22.30:345][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.11-21.22.30:345][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 0 output[s]
+[2016.03.11-21.22.30:345][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.11-21.22.30:347][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.11-21.22.30:347][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.11-21.22.30:358][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.11-21.22.30:373][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/Intermediate/Shaders/WorkingDirectory/12900/).
+[2016.03.11-21.22.30:373][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MATTIA~1/AppData/Local/Temp/UnrealShaderWorkingDir/4E0EDCD04D76160C363571868D66CCFC/'.
+[2016.03.11-21.22.30:373][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.11-21.22.30:974][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.11-21.22.30:977][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.11-21.22.30:980][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.11-21.22.30:983][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.11-21.22.30:986][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.11-21.22.30:988][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.11-21.22.30:990][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.11-21.22.30:992][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.11-21.22.30:994][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.11-21.22.30:996][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.11-21.22.30:997][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.11-21.22.31:002][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.11-21.22.31:002][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.11-21.22.31:002][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.11-21.22.31:017][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.11-21.22.31:019][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.11-21.22.31:022][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.11-21.22.31:024][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.11-21.22.31:024][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.11-21.22.31:087][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.11-21.22.31:123][  0]LogDerivedDataCache: Loaded boot cache 0.04s 43MB C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.11-21.22.31:123][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.11-21.22.31:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.11-21.22.31:124][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.11-21.22.31:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.11-21.22.31:124][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.11-21.22.31:168][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.11-21.22.31:179][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.11-21.22.31:316][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.11-21.22.31:318][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.11-21.22.31:394][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.11-21.22.31:394][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.11-21.22.31:549][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.11-21.22.32:224][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.11-21.22.32:291][  0]LogLinker:Warning: Asset '../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.11-21.22.32:357][  0]LogLinker:Warning: Asset '../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.11-21.22.32:446][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.03.11-21.22.32:562][  0]SourceControl: Info Source control is disabled
+[2016.03.11-21.22.32:583][  0]SourceControl: Info Source control is disabled
+[2016.03.11-21.22.32:593][  0]SourceControl: Info Source control is disabled
+[2016.03.11-21.22.32:601][  0]SourceControl: Info Source control is disabled
+[2016.03.11-21.22.32:778][  0]LogObj: 32270 objects as part of root set at end of initial load.
+[2016.03.11-21.22.32:778][  0]LogUObjectAllocator: 7400448 out of 0 bytes used by permanent object pool.
+[2016.03.11-21.22.32:821][  0]LogEngine: Initializing Engine...
+[2016.03.11-21.22.32:823][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.11-21.22.32:824][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.11-21.22.32:904][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.11-21.22.32:910][  0]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.11-21.22.32:916][  0]LogInit: FAudioDevice initialized.
+[2016.03.11-21.22.32:932][  0]LogDerivedDataCache: Saved boot cache 0.02s 43MB C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.11-21.22.32:934][  0]LogInit: Texture streaming: Enabled
+[2016.03.11-21.22.32:938][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.11-21.22.32:938][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.11-21.22.32:938][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7e4384a44e35e80e9abae4a1743bb6c3|31b81c4c055e4cb8b177921afbb09a3c|2a65b65a-1eb6-4f86-8cad-8e48130d1610
+[2016.03.11-21.22.32:938][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.11-21.22.32:944][  0]LogInit: Transaction tracking system initialized
+[2016.03.11-21.22.32:962][  0]BlueprintLog: New page: Editor Load
+[2016.03.11-21.22.33:036][  0]LocalizationService: Info Localization service is disabled
+[2016.03.11-21.22.33:098][  0]LogConsoleResponse:Display: 
+[2016.03.11-21.22.33:179][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.11-21.22.33:219][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Content/' took 0.01s
+[2016.03.11-21.22.33:219][  0]SourceControl: Info Source control is disabled
+[2016.03.11-21.22.33:219][  0]Cmd: MAP LOAD FILE="../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.11-21.22.33:220][  0]LightingResults: New page: Lighting Build
+[2016.03.11-21.22.33:222][  0]MapCheck: New page: Map Check
+[2016.03.11-21.22.33:222][  0]LightingResults: New page: Lighting Build
+[2016.03.11-21.22.33:231][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000217A8E1EAC0
+[2016.03.11-21.22.33:348][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.11-21.22.33:353][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.11-21.22.33:353][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.11-21.22.33:419][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.591ms to complete.
+[2016.03.11-21.22.33:419][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.200
+[2016.03.11-21.22.33:512][  0]LogCollectionManager: Loaded 0 collections in 0.001298 seconds
+[2016.03.11-21.22.33:549][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Saved/Collections/' took 0.01s
+[2016.03.11-21.22.33:549][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Content/Developers/MattiasAndersson/Collections/' took 0.01s
+[2016.03.11-21.22.33:549][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Content/Collections/' took 0.01s
+[2016.03.11-21.22.33:549][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.03.11-21.22.33:555][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 1897 classes and 340 folders.
+[2016.03.11-21.22.33:560][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.03.11-21.22.33:605][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.03.11-21.22.33:613][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2016.03.11-21.22.33:629][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.11-21.22.33:633][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.11-21.22.33:655][  0]LogLoad: Full Startup: 4.24 seconds (BP compile: 0.04 seconds)
+[2016.03.11-21.22.33:664][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.11-21.22.33:666][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.11-21.22.33:711][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.11-21.22.33:815][  0]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:2).
+[2016.03.11-21.22.33:931][  2]LogAssetRegistry: Asset discovery search completed in 1.4955 seconds
+[2016.03.11-21.22.33:931][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.11-21.22.33:931][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2016.03.11-21.22.40:504][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.22.40:504][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.11-21.22.40:505][787]PIE: New page: PIE session: FirstPersonExampleMap (Mar 11, 2016, 11:22:40 PM)
+[2016.03.11-21.22.40:505][787]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.11-21.22.40:524][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019278s)
+[2016.03.11-21.22.40:525][787]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.11-21.22.40:525][787]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2016.03.11-21.22.40:525][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020356s)
+[2016.03.11-21.22.40:543][787]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.11-21.22.40:547][787]LogInit: FAudioDevice initialized.
+[2016.03.11-21.22.40:592][787]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.11-21.22.40:597][787]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.11-22.22.40
+[2016.03.11-21.22.40:597][787]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.11-21.22.40:597][787]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.11-21.22.40:597][787]LogWorld: Bringing up level for play took: 0.003861
+[2016.03.11-21.22.40:598][787]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.059
+[2016.03.11-21.22.40:598][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.22.42:713][ 38]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.22.42:742][ 38]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.22.42:751][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000217B7009C60
+[2016.03.11-21.32.37:144][560]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksHUD.h'
+[2016.03.11-21.32.37:207][560]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksHUD.cpp'
+[2016.03.11-21.32.39:959][885]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksHUD.h'
+[2016.03.11-21.32.40:015][885]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksHUD.cpp'
+[2016.03.11-21.36.26:067][725]LogHotReload: New module detected: UE4Editor-TowerBollocks-9982.dll
+[2016.03.11-21.36.26:115][729]LogHotReload: Starting Hot-Reload from IDE
+[2016.03.11-21.36.26:315][729]LogContentBrowser: Native class hierarchy updated for 'TowerBollocks' in 0.0011 seconds. Added 4 classes and 2 folders.
+[2016.03.11-21.36.26:316][729]Warning: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2016.03.11-21.36.26:360][729]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1898 classes and 342 folders.
+[2016.03.11-21.36.35:600][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.36.35:600][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.11-21.36.35:600][817]PIE: New page: PIE session: FirstPersonExampleMap (Mar 11, 2016, 11:36:35 PM)
+[2016.03.11-21.36.35:600][817]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.11-21.36.35:616][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016432s)
+[2016.03.11-21.36.35:617][817]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.11-21.36.35:617][817]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2016.03.11-21.36.35:617][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017534s)
+[2016.03.11-21.36.35:634][817]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.11-21.36.35:638][817]LogInit: FAudioDevice initialized.
+[2016.03.11-21.36.35:669][817]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.11-21.36.35:673][817]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.11-22.36.35
+[2016.03.11-21.36.35:673][817]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.11-21.36.35:674][817]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.11-21.36.35:674][817]LogWorld: Bringing up level for play took: 0.004126
+[2016.03.11-21.36.35:675][817]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.135
+[2016.03.11-21.36.35:675][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.36.57:841][475]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.36.57:867][475]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.36.57:878][475]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000217B7008400
+[2016.03.11-21.47.26:867][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.47.26:867][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.11-21.47.26:867][721]PIE: New page: PIE session: FirstPersonExampleMap (Mar 11, 2016, 11:47:26 PM)
+[2016.03.11-21.47.26:867][721]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.11-21.47.26:884][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016786s)
+[2016.03.11-21.47.26:885][721]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.11-21.47.26:885][721]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2016.03.11-21.47.26:885][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017882s)
+[2016.03.11-21.47.26:904][721]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.11-21.47.26:908][721]LogInit: FAudioDevice initialized.
+[2016.03.11-21.47.26:939][721]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.11-21.47.26:943][721]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.11-22.47.26
+[2016.03.11-21.47.26:943][721]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.11-21.47.26:943][721]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.11-21.47.26:944][721]LogWorld: Bringing up level for play took: 0.003810
+[2016.03.11-21.47.26:945][721]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.595
+[2016.03.11-21.47.26:945][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.52.08:244][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.52.08:272][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.11-21.52.08:294][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000217B777C5E0
+[2016.03.11-21.53.51:704][494]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksCharacter.h'
+[2016.03.11-21.53.51:755][494]LogVSAccessor:Warning: Couldn't goto line number '0' in 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksCharacter.cpp'
+[2016.03.11-21.56.01:228][480]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.11-21.56.01:517][480]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 107 classes and 0 folders.
+[2016.03.11-22.18.23:268][305]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2016.03.11-22.18.23:271][305]Recompiling TowerBollocks...
+[2016.03.11-22.18.23:271][305]Launching UnrealBuildTool... [D:/Programs/Programming/Epic Games/4.10/Engine/Binaries/DotNET/UnrealBuildTool.exe TowerBollocks -ModuleWithSuffix TowerBollocks 1137 Win64 Development -editorrecompile -canskiplink "D:/Files/Unreal/ByggaSaker/TowerBollocks/TowerBollocks.uproject" -rocket  -rocket -2015]
+[2016.03.11-22.18.23:286][305]Warning: Starting HotReload took  0.0s.
+[2016.03.11-22.18.31:574][279]CompilerResultsLog: New page: Compilation - Mar 12, 2016, 12:18:31 AM
+[2016.03.11-22.18.31:575][279]CompilerResultsLog: Info Creating makefile for hot reloading TowerBollocks (modules to compile have changed)
+[2016.03.11-22.18.31:575][279]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.11-22.18.31:575][279]CompilerResultsLog: Info Parsing headers for TowerBollocksEditor
+[2016.03.11-22.18.31:575][279]CompilerResultsLog: Info   Running UnrealHeaderTool "D:/Files/Unreal/ByggaSaker/TowerBollocks/TowerBollocks.uproject" "D:\Files\Unreal\ByggaSaker\TowerBollocks\Intermediate\Build\Win64\TowerBollocksEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -rocket -installed
+[2016.03.11-22.18.31:575][279]CompilerResultsLog:Error: Error D:/Files/Unreal/ByggaSaker/TowerBollocks/Source/TowerBollocks/TowerBollocksCharacter.h(29)  : Class 'ABumProjectile' not found.
+[2016.03.11-22.18.31:575][279]CompilerResultsLog:Error: Error Error: Failed to generate code for TowerBollocksEditor - error code: OtherCompilationError (5) 
+[2016.03.11-22.18.31:575][279]CompilerResultsLog: Info UnrealHeaderTool failed for target 'TowerBollocksEditor' (platform: Win64, module info: D:\Files\Unreal\ByggaSaker\TowerBollocks\Intermediate\Build\Win64\TowerBollocksEditor\Development\UnrealHeaderTool.manifest).
+[2016.03.11-22.18.31:575][279]LogMainFrame: MainFrame: Module compiling took 8.306 seconds
+[2016.03.11-22.18.31:575][279]Warning: HotReload failed, recompile failed
+[2016.03.11-22.19.49:259][231]LogHotReload: New module detected: UE4Editor-TowerBollocks-6697.dll
+[2016.03.11-22.19.49:274][232]LogHotReload: Starting Hot-Reload from IDE
+[2016.03.11-22.19.49:290][232]LogActorComponent: UnregisterComponent: (
