@@ -67,7 +67,7 @@ void ATowerBollocksCharacter::AddControllerYawInput(float value) {
 		return;
 	}
 
-	brickActorRef->AddActorLocalRotation(FQuat::MakeFromEuler(FVector(0, 0, -value)));
+	brickActorRef->AddActorWorldRotation(FQuat::MakeFromEuler(FVector(0, 0, -value)));
 }
 void ATowerBollocksCharacter::AddControllerPitchInput(float value) {
 	if (!IsValid(brickActorRef) || !rotateObject) {
