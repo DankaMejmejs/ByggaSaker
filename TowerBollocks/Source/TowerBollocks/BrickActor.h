@@ -38,6 +38,7 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = Interaction)
 		void EventEndHold();
 
+	//UFUNCTION(BlueprintCallable, Server, Unreliable, WithValidation, Category = Interaction)
 	UFUNCTION(BlueprintCallable, Category = Interaction)
 		void BeginHold();
 
