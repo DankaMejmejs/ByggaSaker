@@ -13,6 +13,9 @@ ABrickDispenserActor::ABrickDispenserActor()
 	currentBrick = 0;
 
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+	triggerBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Trigger"));
+	triggerBox->AttachParent = RootComponent;
+	triggerBox->SetCollisionProfileName(TEXT("Trigger"));
 }
 
 // Called when the game starts or when spawned
@@ -33,13 +36,9 @@ void ABrickDispenserActor::Tick( float DeltaTime )
 		if (wait >= 1.0f)
 		{
 			SpawnBrick();
-			UE_LOG(LogTemp, Warning, TEXT("Hello"));
-			UE_LOG(LogTemp, Warning, TEXT("%i"), currentBrick);
 			wait = 0.0f;
 		}
-		//currentBrick++;
-		
-		
+	
 	}
 }
 
@@ -51,27 +50,12 @@ void ABrickDispenserActor::TookABrick()
 void ABrickDispenserActor::SpawnBrick()
 {
 	currentBrick++;
-	//const ConstructorHelpers::FClassFinder<ABrickActor> brick(TEXT("/Classes_Game/TowerBollocks/BrickActor"));
-	/*if (brick.Class != nullptr)
-	{
 
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("SHIT FUCKER"));
-	}
-	FActorSpawnParameters spawn = FActorSpawnParameters();*/
-	
 	ABrickActor* brick = GetWorld()->SpawnActor<ABrickActor>(ABrickActor::StaticClass());
 	FTransform pos = FTransform();
 	pos.SetLocation(GetTransform().GetLocation());
 	pos.SetScale3D(brick->GetTransform().GetScale3D());
 	brick->SetActorTransform(pos);
-	//brick->SetActorTransform(GetTransform());
-	//Cast <ABrickActor, AActor>(brick)->SetActorTransform(GetTransform());
-	//GetWorld()->SpawnActor(ABrickActor::StaticClass(), GetTransform(),FActorSpawnParameters());
-	//ABrickActor().SetActorTransform(GetTransform());
-	
 
 }
 

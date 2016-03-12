@@ -20,11 +20,19 @@ public:
 	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;
 
+	UFUNCTION(BlueprintCallable, Category = Interaction)
 	void TookABrick();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = Interaction)
+		void EventTakeABrick();
+	
 	void SpawnBrick();
+
 	
 private:
 	//ABrickActor& brick;
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* triggerBox;
 	
 
 	int32 MaxBrick;
