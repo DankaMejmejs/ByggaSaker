@@ -61,6 +61,15 @@ void ATowerBollocksCharacter::SetupPlayerInputComponent(class UInputComponent* I
 	InputComponent->BindAction("ScrollDown", IE_Pressed, this, &ATowerBollocksCharacter::ScrollDown);
 }
 
+void ATowerBollocksCharacter::bos_Implementation(ABrickActor* ref, FVector location) {
+	if (ref != nullptr)
+		ref->SetActorLocation(location);
+}
+
+bool ATowerBollocksCharacter::bos_Validate(ABrickActor* brickActorRef) {
+	return true;
+}
+
 void ATowerBollocksCharacter::AddControllerYawInput(float value) {
 	if (!IsValid(brickActorRef) || !rotateObject) {
 		Super::AddControllerYawInput(value);
@@ -82,11 +91,12 @@ void ATowerBollocksCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 
 	if (IsValid(brickActorRef) && hold)
-		brickActorRef->SetActorLocation(FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));
+		bos(brickActorRef, FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));//brickActorRef->SetActorLocation(FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));
 }
 
 void ATowerBollocksCharacter::OnClick()
 {
+
 	//FHitResult hit(ForceInit);
 	//FVector CamLoc;
 	//FRotator CamRot;

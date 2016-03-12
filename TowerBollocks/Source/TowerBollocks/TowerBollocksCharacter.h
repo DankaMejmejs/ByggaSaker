@@ -29,6 +29,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	UFUNCTION(Server, Unreliable, WithValidation)
+		void bos(ABrickActor* brickActorRef, FVector location);
+
 protected:
 	
 	virtual void AddControllerPitchInput(float value) override;
