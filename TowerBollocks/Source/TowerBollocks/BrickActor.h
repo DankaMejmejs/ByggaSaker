@@ -32,6 +32,12 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = Interaction)
 		void EventEndHover();
 
+	UFUNCTION(BlueprintImplementableEvent, Category = Interaction)
+		void EventBeginHold();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = Interaction)
+		void EventEndHold();
+
 	UFUNCTION(BlueprintCallable, Category = Interaction)
 		void BeginHold();
 

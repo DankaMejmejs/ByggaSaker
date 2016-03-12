@@ -18,6 +18,9 @@ class ATowerBollocksCharacter : public ACharacter
 public:
 	ATowerBollocksCharacter();
 
+	// Called every frame
+	virtual void Tick(float DeltaSeconds) override;
+
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseTurnRate;
@@ -28,6 +31,12 @@ public:
 
 protected:
 	
+	virtual void AddControllerPitchInput(float value) override;
+	virtual void AddControllerYawInput(float value) override;
+
+	void ScrollUp();
+	void ScrollDown();
+
 	/** Fires a projectile. */
 	void OnClick();
 
@@ -79,5 +88,20 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		ABrickActor* brickActorRef;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool mousePressed;
+
+protected:
+	UPROPERTY(EditAnywhere)
+		float holdDistance = 200;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool hold = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool rotateObject = false;
 };
 

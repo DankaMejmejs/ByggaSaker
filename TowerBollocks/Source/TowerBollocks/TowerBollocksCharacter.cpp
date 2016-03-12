@@ -53,10 +53,36 @@ void ATowerBollocksCharacter::SetupPlayerInputComponent(class UInputComponent* I
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
-	InputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	InputComponent->BindAxis("Turn", this, &ATowerBollocksCharacter::AddControllerYawInput);
 	InputComponent->BindAxis("TurnRate", this, &ATowerBollocksCharacter::TurnAtRate);
-	InputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	InputComponent->BindAxis("LookUp", this, &ATowerBollocksCharacter::AddControllerPitchInput);
 	InputComponent->BindAxis("LookUpRate", this, &ATowerBollocksCharacter::LookUpAtRate);
+	InputComponent->BindAction("ScrollUp", IE_Pressed, this, &ATowerBollocksCharacter::ScrollUp);
+	InputComponent->BindAction("ScrollDown", IE_Pressed, this, &ATowerBollocksCharacter::ScrollDown);
+}
+
+void ATowerBollocksCharacter::AddControllerYawInput(float value) {
+	if (!IsValid(brickActorRef) || !rotateObject) {
+		Super::AddControllerYawInput(value);
+		return;
+	}
+
+	brickActorRef->AddActorLocalRotation(FQuat::MakeFromEuler(FVector(0, 0, -value)));
+}
+void ATowerBollocksCharacter::AddControllerPitchInput(float value) {
+	if (!IsValid(brickActorRef) || !rotateObject) {
+		Super::AddControllerPitchInput(value);
+		return;
+	}
+
+	brickActorRef->AddActorLocalRotation(FQuat::MakeFromEuler(FVector(0, -value, 0)));
+}
+
+void ATowerBollocksCharacter::Tick(float DeltaSeconds) {
+	Super::Tick(DeltaSeconds);
+
+	if (IsValid(brickActorRef) && hold)
+		brickActorRef->SetActorLocation(FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));
 }
 
 void ATowerBollocksCharacter::OnClick()
@@ -64,6 +90,8 @@ void ATowerBollocksCharacter::OnClick()
 	FHitResult hit(ForceInit);
 	FVector CamLoc;
 	FRotator CamRot;
+
+	holdDistance = 200;
 
 	Controller->GetActorEyesViewPoint(CamLoc, CamRot);
 	const FVector start = CamLoc;
@@ -75,11 +103,22 @@ void ATowerBollocksCharacter::OnClick()
 	//GetWorld()->LineTraceSingle(hit, start, end, TraceParams, FCollisionObjectQueryParams());
 	GetWorld()->LineTraceSingleByObjectType(hit, start, end, FCollisionObjectQueryParams::AllDynamicObjects);
 	UE_LOG(LogTemp, Warning, TEXT("Fired"));
+	UE_LOG(LogTemp, Warning, TEXT("%i"), hit.GetActor());
 	ABrickActor* brickson = Cast<ABrickActor>(hit.GetActor());
 	if (brickson != NULL)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("A brick is just a brick son"));
 	}
+}
+
+void ATowerBollocksCharacter::ScrollUp() {
+	holdDistance += 50;
+	holdDistance = FMath::Clamp<float>(holdDistance, 200, 400);
+}
+
+void ATowerBollocksCharacter::ScrollDown() {
+	holdDistance -= 50;
+	holdDistance = FMath::Clamp<float>(holdDistance, 200, 400);
 }
 
 void ATowerBollocksCharacter::BeginTouch(const ETouchIndex::Type FingerIndex, const FVector Location)
