@@ -87,28 +87,28 @@ void ATowerBollocksCharacter::Tick(float DeltaSeconds) {
 
 void ATowerBollocksCharacter::OnClick()
 {
-	FHitResult hit(ForceInit);
-	FVector CamLoc;
-	FRotator CamRot;
+	//FHitResult hit(ForceInit);
+	//FVector CamLoc;
+	//FRotator CamRot;
 
-	holdDistance = 200;
+	//holdDistance = 200;
 
-	Controller->GetActorEyesViewPoint(CamLoc, CamRot);
-	const FVector start = CamLoc;
-	const FVector dir = CamRot.Vector();
-	const FVector end = start + dir * 100;
-	FCollisionQueryParams TraceParams(FName(TEXT("HandTrace")), true, this);
-	TraceParams.bTraceAsyncScene = true;
-	TraceParams.bReturnPhysicalMaterial = true;
-	//GetWorld()->LineTraceSingle(hit, start, end, TraceParams, FCollisionObjectQueryParams());
-	GetWorld()->LineTraceSingleByObjectType(hit, start, end, FCollisionObjectQueryParams::AllDynamicObjects);
-	UE_LOG(LogTemp, Warning, TEXT("Fired"));
-	UE_LOG(LogTemp, Warning, TEXT("%i"), hit.GetActor());
-	ABrickActor* brickson = Cast<ABrickActor>(hit.GetActor());
-	if (brickson != NULL)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("A brick is just a brick son"));
-	}
+	//Controller->GetActorEyesViewPoint(CamLoc, CamRot);
+	//const FVector start = CamLoc;
+	//const FVector dir = CamRot.Vector();
+	//const FVector end = start + dir * 100;
+	//FCollisionQueryParams TraceParams(FName(TEXT("HandTrace")), true, this);
+	//TraceParams.bTraceAsyncScene = true;
+	//TraceParams.bReturnPhysicalMaterial = true;
+	////GetWorld()->LineTraceSingle(hit, start, end, TraceParams, FCollisionObjectQueryParams());
+	//GetWorld()->LineTraceSingleByObjectType(hit, start, end, FCollisionObjectQueryParams::AllDynamicObjects);
+	//UE_LOG(LogTemp, Warning, TEXT("Fired"));
+	//UE_LOG(LogTemp, Warning, TEXT("%i"), hit.GetActor());
+	//ABrickActor* brickson = Cast<ABrickActor>(hit.GetActor());
+	//if (brickson != NULL)
+	//{
+	//	UE_LOG(LogTemp, Warning, TEXT("A brick is just a brick son"));
+	//}
 }
 
 void ATowerBollocksCharacter::ScrollUp() {

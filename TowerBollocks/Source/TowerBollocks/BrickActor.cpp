@@ -13,9 +13,7 @@ ABrickActor::ABrickActor()
 	block = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Block"));
 	const ConstructorHelpers::FObjectFinder<UStaticMesh> BlockMesh(TEXT("/Engine/BasicShapes/Cube"));
 	block->SetStaticMesh(BlockMesh.Object);
-	FTransform trans = FTransform();
-	trans.SetScale3D(FVector(1.0f, 0.5f, 0.5f));
-	block->SetRelativeTransform(trans);
+	
 	block->BodyInstance.bSimulatePhysics = true;
 	//block->BodyInstance.bLockXTranslation = true;
 	//block->BodyInstance.bLockYTranslation = true;
@@ -28,7 +26,9 @@ ABrickActor::ABrickActor()
 void ABrickActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	FTransform trans = FTransform();
+	trans.SetScale3D(FVector(1.0f, 0.5f, 0.5f));
+	block->SetRelativeTransform(trans);
 }
 
 // Called every frame
