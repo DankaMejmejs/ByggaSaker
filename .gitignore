@@ -56,3 +56,4 @@ TowerBollocks/Intermediate/*
 
 # Cache files for the editor to use
 TowerBollocks/DerivedDataCache/*
+TowerBollocks/Intermediate/CachedAssetRegistry.bin

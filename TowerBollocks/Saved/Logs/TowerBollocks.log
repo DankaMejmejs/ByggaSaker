@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿[2016.03.12-13.28.34:736][  0]Log file open, 03/12/16 14:28:34
 [2016.03.12-13.28.34:736][  0]LogInit:Display: Running engine for game: TowerBollocks
 [2016.03.12-13.28.34:736][  0]LogPlatformFile: Not using cached read wrapper
@@ -1496,3 +1497,990 @@
 [2016.03.12-15.16.40:589][ 14]LogModuleManager: Shutting down and abandoning module PakFile (1)
 [2016.03.12-15.16.40:591][ 14]LogExit: Exiting.
 [2016.03.12-15.16.40:604][ 14]Log file closed, 03/12/16 16:16:40
+=======
+<<<<<<< HEAD
+﻿[2016.03.12-11.26.35:982][  0]Log file open, 03/12/16 12:26:35
+[2016.03.12-11.26.35:982][  0]LogInit:Display: Running engine for game: TowerBollocks
+[2016.03.12-11.26.35:982][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.12-11.26.35:982][  0]LogInit:Display: RandInit(-366141016) SRandInit(-366140995).
+[2016.03.12-11.26.35:982][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2016.03.12-11.26.35:982][  0]LogStats: Stats thread started at 0.099781
+[2016.03.12-11.26.35:982][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.12-11.26.35:982][  0]LogInit: API Version: 2758231
+[2016.03.12-11.26.35:982][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.12-11.26.35:982][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.12-11.26.35:982][  0]LogInit: Build Configuration: Development
+[2016.03.12-11.26.35:982][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.12-11.26.35:982][  0]LogInit: Command line: -EpicPortal 
+[2016.03.12-11.26.35:982][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.12-11.26.35:982][  0]LogInit: Rocket: 1
+[2016.03.12-11.26.35:997][  0]LogInit: Using libcurl 7.41.0
+[2016.03.12-11.26.35:997][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.12-11.26.35:997][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.12-11.26.35:997][  0]LogInit:  - other features:
+[2016.03.12-11.26.35:997][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.12-11.26.35:997][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.12-11.26.35:997][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.12-11.26.35:997][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.12-11.26.35:997][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.12-11.26.35:997][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.12-11.26.35:997][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.12-11.26.35:997][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.12-11.26.35:997][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.12-11.26.35:997][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.12-11.26.36:012][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.12-11.26.36:024][  0]LogInit: Object subsystem initialized
+[2016.03.12-11.26.36:026][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.12-11.26.36:026][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.12-11.26.36:040][  0]LogInit: Computer: FLEMMINGMADSEN
+[2016.03.12-11.26.36:040][  0]LogInit: User: Jesper
+[2016.03.12-11.26.36:040][  0]LogInit: CPU Page size=4096, Cores=3
+[2016.03.12-11.26.36:040][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.03.12-11.26.36:040][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.03.12-11.26.36:040][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.12-11.26.36:040][  0]LogMemory: Process Physical Memory: 56.92 MB used, 56.92 MB peak
+[2016.03.12-11.26.36:040][  0]LogMemory: Process Virtual Memory: 55.64 MB used, 55.64 MB peak
+[2016.03.12-11.26.36:040][  0]LogMemory: Physical Memory: 4291.59 MB used, 8189.24 MB total
+[2016.03.12-11.26.36:040][  0]LogMemory: Virtual Memory: 364.11 MB used, 134217728.00 MB total
+[2016.03.12-11.26.36:202][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.12-11.26.36:995][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 Ti  (Feature Level 11_0)
+[2016.03.12-11.26.36:995][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 4094MB of shared system memory, 3 output[s]
+[2016.03.12-11.26.36:997][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.12-11.26.36:998][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4094MB of shared system memory, 0 output[s]
+[2016.03.12-11.26.36:998][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.12-11.26.37:005][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.12-11.26.37:005][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.12-11.26.37:026][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.12-11.26.37:043][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Intermediate/Shaders/WorkingDirectory/11124/).
+[2016.03.12-11.26.37:043][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jesper/AppData/Local/Temp/UnrealShaderWorkingDir/875FCADD4AB01701E08FF88AE2E12D39/'.
+[2016.03.12-11.26.37:043][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.12-11.26.38:664][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.12-11.26.38:676][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.12-11.26.38:688][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.12-11.26.38:700][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.12-11.26.38:712][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.12-11.26.38:719][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.12-11.26.38:727][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.12-11.26.38:734][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.12-11.26.38:740][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.12-11.26.38:747][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.12-11.26.38:755][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.12-11.26.38:770][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.12-11.26.38:770][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.12-11.26.38:771][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.12-11.26.38:796][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.12-11.26.38:802][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.12-11.26.38:808][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.12-11.26.38:816][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.12-11.26.38:816][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.12-11.26.39:012][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.12-11.26.39:093][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/Jesper/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.12-11.26.39:093][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jesper/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.12-11.26.39:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.12-11.26.39:093][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.12-11.26.39:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.12-11.26.39:093][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.12-11.26.39:176][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.12-11.26.39:189][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jesper/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.12-11.26.39:572][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.12-11.26.39:575][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.12-11.26.39:755][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.12-11.26.39:755][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.12-11.26.40:206][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.12-11.26.41:965][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.12-11.26.42:417][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2016.03.12-11.26.42:757][  0]SourceControl: Info Source control is disabled
+[2016.03.12-11.26.42:760][  0]SourceControl: Info Source control is disabled
+[2016.03.12-11.26.42:793][  0]SourceControl: Info Source control is disabled
+[2016.03.12-11.26.42:828][  0]SourceControl: Info Source control is disabled
+[2016.03.12-11.26.43:458][  0]LogObj: 33870 objects as part of root set at end of initial load.
+[2016.03.12-11.26.43:458][  0]LogUObjectAllocator: 7935040 out of 0 bytes used by permanent object pool.
+[2016.03.12-11.26.43:546][  0]LogEngine: Initializing Engine...
+[2016.03.12-11.26.43:554][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.12-11.26.43:560][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.03.12-11.26.43:749][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.12-11.26.43:823][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.12-11.26.43:852][  0]LogInit: FAudioDevice initialized.
+[2016.03.12-11.26.43:902][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/Jesper/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.12-11.26.43:913][  0]LogInit: Texture streaming: Enabled
+[2016.03.12-11.26.43:928][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.12-11.26.43:928][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.12-11.26.43:928][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 77557c7b44ecafaf75c4b6b0dc7ba36b|25d41f5c680d4412a605a7dfe13f17b7|f16b9e75-d49b-45a3-a30e-9341889057a5
+[2016.03.12-11.26.43:928][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.12-11.26.43:946][  0]LogInit: Transaction tracking system initialized
+[2016.03.12-11.26.44:007][  0]BlueprintLog: New page: Editor Load
+[2016.03.12-11.26.44:240][  0]LocalizationService: Info Localization service is disabled
+[2016.03.12-11.26.44:387][  0]LogConsoleResponse:Display: 
+[2016.03.12-11.26.44:571][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.12-11.26.44:706][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/' took 0.02s
+[2016.03.12-11.26.44:706][  0]SourceControl: Info Source control is disabled
+[2016.03.12-11.26.44:707][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.12-11.26.44:708][  0]LightingResults: New page: Lighting Build
+[2016.03.12-11.26.44:714][  0]MapCheck: New page: Map Check
+[2016.03.12-11.26.44:714][  0]LightingResults: New page: Lighting Build
+[2016.03.12-11.26.44:735][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C664BF6A0
+[2016.03.12-11.26.45:182][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.12-11.26.45:193][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.12-11.26.45:193][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.12-11.26.45:361][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 167.568ms to complete.
+[2016.03.12-11.26.45:361][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.654
+[2016.03.12-11.26.45:576][  0]LogCollectionManager: Loaded 0 collections in 0.004234 seconds
+[2016.03.12-11.26.45:636][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/Collections/' took 0.01s
+[2016.03.12-11.26.45:636][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/Developers/Jesper/Collections/' took 0.01s
+[2016.03.12-11.26.45:636][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/Collections/' took 0.01s
+[2016.03.12-11.26.45:636][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.03.12-11.26.45:651][  0]LogContentBrowser: Native class hierarchy populated in 0.0145 seconds. Added 1899 classes and 340 folders.
+[2016.03.12-11.26.45:665][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2016.03.12-11.26.45:782][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2016.03.12-11.26.45:800][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0031 seconds. Added 1 classes and 2 folders.
+[2016.03.12-11.26.45:833][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.12-11.26.45:841][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.12-11.26.45:864][  0]LogLoad: Full Startup: 11.70 seconds (BP compile: 0.18 seconds)
+[2016.03.12-11.26.45:873][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.12-11.26.45:882][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.12-11.26.45:945][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.12-11.26.46:168][  0]LogRenderer: Reallocating scene render targets to support 1208x552 (Frame:2).
+[2016.03.12-11.26.46:508][  5]LogAssetRegistry: Asset discovery search completed in 4.1020 seconds
+[2016.03.12-11.26.46:508][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.12-11.26.46:508][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2016.03.12-11.26.54:379][712]LogMaterial: Missing cached shader map for material OutlineMaterial, compiling. 
+[2016.03.12-11.26.54:542][712]LogMaterial: Missing cached shader map for material OutlineMaterial, compiling. 
+[2016.03.12-11.26.54:548][712]LogMaterial: 0.000206 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.26.54:575][712]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.03.12-11.26.54:579][712]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.03.12-11.26.54:670][712]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.12-11.26.55:512][712]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0038 seconds. Added 107 classes and 0 folders.
+[2016.03.12-11.26.56:169][712]LogActor:Warning: BrickActor_C /Engine/Transient.World_4:PersistentLevel.BrickActor_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.27.00:735][898]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.03.12-11.27.00:735][898]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 87 instructions
+[2016.03.12-11.27.00:735][898]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.03.12-11.27.00:735][898]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.12-11.35.49:257][587]LogMaterial: Missing cached shader map for material OutlineMaterialPost, compiling. 
+[2016.03.12-11.35.49:381][587]LogMaterial: Missing cached shader map for material OutlineMaterialPost, compiling. 
+[2016.03.12-11.35.49:384][587]LogMaterial: 0.000204 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.35.50:738][647]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2016.03.12-11.35.50:738][647]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-11.35.50:738][647]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.12-11.36.39:054][588]LogLinker:Warning: Asset '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_Outliner_Inst.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.12-11.36.39:054][588]LogLinker:Warning: Can't find file '/Game/Materials/PP_Outliner_M'
+[2016.03.12-11.36.39:054][588]LogLinker:Warning: Can't find file for asset '/Game/Materials/PP_Outliner_M' while loading ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_Outliner_Inst.uasset.
+[2016.03.12-11.36.39:055][588]LoadErrors:Error: Error /Game/PP_Outliner_Inst : Can't find file for asset. /Game/Materials/PP_Outliner_M
+[2016.03.12-11.36.39:055][588]LogLinker:Warning: Can't find file '/Game/Materials/PP_Outliner_M'
+[2016.03.12-11.36.39:055][588]LogLinker:Warning: Can't find file for asset '/Game/Materials/PP_Outliner_M' while loading ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_Outliner_Inst.uasset.
+[2016.03.12-11.36.39:055][588]LogLinker:Warning: Can't find file '/Game/Materials/PP_Outliner_M'
+[2016.03.12-11.36.39:056][588]LoadErrors: Info Failed to load /Game/Materials/PP_Outliner_M.PP_Outliner_M Referenced by PP_Outliner_Inst
+[2016.03.12-11.36.39:056][588]LogLinker:Warning: Can't find file for asset '/Game/Materials/PP_Outliner_M' while loading NULL.
+[2016.03.12-11.36.39:193][588]LogRenderer: Reallocating scene render targets to support 1208x876 (Frame:74980).
+[2016.03.12-11.37.01:308][915]LogLinker:Warning: Asset '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_Outliner_M.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.12-11.37.01:313][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2016.03.12-11.37.01:313][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_Outliner_M.uasset.
+[2016.03.12-11.37.01:313][915]LoadErrors:Error: Error /Game/PP_Outliner_M : Can't find file for asset. /Game/Materials/MF_ConvolveTexture
+[2016.03.12-11.37.01:313][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:313][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_Outliner_M.uasset.
+[2016.03.12-11.37.01:314][915]LoadErrors:Error: Error /Game/PP_Outliner_M : Can't find file for asset. /Game/Materials/MF_ExtractDepth
+[2016.03.12-11.37.01:314][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2016.03.12-11.37.01:314][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_Outliner_M.uasset.
+[2016.03.12-11.37.01:314][915]LoadErrors:Error: Error /Game/PP_Outliner_M : Can't find file for asset. /Game/Materials/MF_SampleSceneTextureNeighbourUVs
+[2016.03.12-11.37.01:315][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2016.03.12-11.37.01:315][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_Outliner_M.uasset.
+[2016.03.12-11.37.01:315][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:315][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_Outliner_M.uasset.
+[2016.03.12-11.37.01:315][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2016.03.12-11.37.01:316][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_Outliner_M.uasset.
+[2016.03.12-11.37.01:320][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2016.03.12-11.37.01:320][915]LoadErrors: Info Failed to load /Game/Materials/MF_ConvolveTexture.MF_ConvolveTexture Referenced by PP_Outliner_M
+[2016.03.12-11.37.01:320][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading NULL.
+[2016.03.12-11.37.01:320][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2016.03.12-11.37.01:320][915]LoadErrors: Info Failed to load /Game/Materials/MF_SampleSceneTextureNeighbourUVs.MF_SampleSceneTextureNeighbourUVs Referenced by PP_Outliner_M
+[2016.03.12-11.37.01:320][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading NULL.
+[2016.03.12-11.37.01:321][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:321][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by PP_Outliner_M
+[2016.03.12-11.37.01:321][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:321][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:321][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:321][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:322][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:322][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:322][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:322][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:322][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:323][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:323][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:323][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:323][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:323][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:324][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:324][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:324][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:324][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2016.03.12-11.37.01:324][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading NULL.
+[2016.03.12-11.37.01:325][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2016.03.12-11.37.01:325][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading NULL.
+[2016.03.12-11.37.01:325][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:325][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:325][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:326][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:326][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:326][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:326][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:327][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:327][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:327][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:327][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:327][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:328][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:328][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:328][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:328][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:328][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:328][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:329][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2016.03.12-11.37.01:329][915]LoadErrors: Info Failed to load /Game/Materials/MF_ConvolveTexture.MF_ConvolveTexture Referenced by MaterialExpressionMaterialFunctionCall_13
+[2016.03.12-11.37.01:329][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading NULL.
+[2016.03.12-11.37.01:330][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2016.03.12-11.37.01:330][915]LoadErrors: Info Failed to load /Game/Materials/MF_SampleSceneTextureNeighbourUVs.MF_SampleSceneTextureNeighbourUVs Referenced by MaterialExpressionMaterialFunctionCall_14
+[2016.03.12-11.37.01:330][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading NULL.
+[2016.03.12-11.37.01:330][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:331][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_15
+[2016.03.12-11.37.01:331][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:331][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:331][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_16
+[2016.03.12-11.37.01:332][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:332][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:332][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_17
+[2016.03.12-11.37.01:332][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:333][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:333][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_18
+[2016.03.12-11.37.01:333][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:333][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:333][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_19
+[2016.03.12-11.37.01:334][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:334][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:334][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_20
+[2016.03.12-11.37.01:334][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:335][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:335][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_21
+[2016.03.12-11.37.01:335][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:335][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:335][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_22
+[2016.03.12-11.37.01:335][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:336][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:336][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_23
+[2016.03.12-11.37.01:336][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:336][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ConvolveTexture'
+[2016.03.12-11.37.01:337][915]LoadErrors: Info Failed to load /Game/Materials/MF_ConvolveTexture.MF_ConvolveTexture Referenced by MaterialExpressionMaterialFunctionCall_24
+[2016.03.12-11.37.01:337][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ConvolveTexture' while loading NULL.
+[2016.03.12-11.37.01:337][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_SampleSceneTextureNeighbourUVs'
+[2016.03.12-11.37.01:337][915]LoadErrors: Info Failed to load /Game/Materials/MF_SampleSceneTextureNeighbourUVs.MF_SampleSceneTextureNeighbourUVs Referenced by MaterialExpressionMaterialFunctionCall_25
+[2016.03.12-11.37.01:337][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_SampleSceneTextureNeighbourUVs' while loading NULL.
+[2016.03.12-11.37.01:338][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:338][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_26
+[2016.03.12-11.37.01:338][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:339][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:339][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_27
+[2016.03.12-11.37.01:339][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:339][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:339][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_28
+[2016.03.12-11.37.01:340][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:340][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:340][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_29
+[2016.03.12-11.37.01:340][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:340][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:341][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_30
+[2016.03.12-11.37.01:341][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:341][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:341][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_31
+[2016.03.12-11.37.01:341][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:342][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:342][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_32
+[2016.03.12-11.37.01:342][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:343][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:343][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_33
+[2016.03.12-11.37.01:343][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:343][915]LogLinker:Warning: Can't find file '/Game/Materials/MF_ExtractDepth'
+[2016.03.12-11.37.01:343][915]LoadErrors: Info Failed to load /Game/Materials/MF_ExtractDepth.MF_ExtractDepth Referenced by MaterialExpressionMaterialFunctionCall_34
+[2016.03.12-11.37.01:344][915]LogLinker:Warning: Can't find file for asset '/Game/Materials/MF_ExtractDepth' while loading NULL.
+[2016.03.12-11.37.01:345][915]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2016.03.12-11.37.01:346][915]LogMaterial:Warning: Failed to compile Material /Game/PP_Outliner_M.PP_Outliner_M for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-11.37.01:346][915]LogMaterial:Warning: 	Missing Material Function
+[2016.03.12-11.37.01:346][915]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2016.03.12-11.37.09:093][295]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2016.03.12-11.37.09:093][295]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PP_Outliner_M for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-11.37.09:093][295]LogMaterial:Warning: 	Missing Material Function
+[2016.03.12-11.37.09:093][295]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2016.03.12-11.37.09:181][295]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2016.03.12-11.37.09:182][295]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PP_Outliner_M for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-11.37.09:182][295]LogMaterial:Warning: 	Missing Material Function
+[2016.03.12-11.37.09:182][295]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2016.03.12-11.37.09:182][295]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.37.09:210][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.03.12-11.37.09:213][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.03.12-11.37.09:216][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2016.03.12-11.37.09:220][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2016.03.12-11.37.09:223][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_7, compiling. 
+[2016.03.12-11.37.09:226][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_8, compiling. 
+[2016.03.12-11.37.09:229][295]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.03.12-11.37.09:236][295]MaterialEditorStats:Error: Error [SM5] Missing Material Function
+[2016.03.12-11.37.09:236][295]MaterialEditorStats:Error: Error [SM5] (Node If) If input A must be of type float.
+[2016.03.12-11.37.18:032][754]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2016.03.12-11.37.18:032][754]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PP_Outliner_M for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-11.37.18:032][754]LogMaterial:Warning: 	Missing Material Function
+[2016.03.12-11.37.18:032][754]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2016.03.12-11.37.18:032][754]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.37.21:147][927]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2016.03.12-11.37.21:148][927]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PP_Outliner_M for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-11.37.21:148][927]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2016.03.12-11.37.21:148][927]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2016.03.12-11.37.21:148][927]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.37.21:150][927]MaterialEditorStats:Error: Error [SM5] (Node ComponentMask) Missing ComponentMask input
+[2016.03.12-11.37.21:150][927]MaterialEditorStats:Error: Error [SM5] (Node If) If input A must be of type float.
+[2016.03.12-11.37.23:521][ 70]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2016.03.12-11.37.23:521][ 70]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PP_Outliner_M for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-11.37.23:521][ 70]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2016.03.12-11.37.23:521][ 70]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2016.03.12-11.37.23:521][ 70]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.37.23:547][ 70]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.03.12-11.37.25:747][186]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2016.03.12-11.37.25:747][186]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PP_Outliner_M for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-11.37.25:747][186]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2016.03.12-11.37.25:747][186]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2016.03.12-11.37.25:748][186]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.37.28:915][383]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2016.03.12-11.37.28:917][383]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PP_Outliner_M for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-11.37.28:917][383]LogMaterial:Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2016.03.12-11.37.28:917][383]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2016.03.12-11.37.28:917][383]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.37.34:743][713]LogMaterial: Missing cached shader map for material PP_Outliner_M, compiling. 
+[2016.03.12-11.37.34:746][713]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.37.35:172][729]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2016.03.12-11.37.35:172][729]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-11.37.35:172][729]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.03.12-11.38.25:296][351]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-11.38.25:420][351]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-11.38.25:422][351]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.38.26:466][393]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2016.03.12-11.38.26:466][393]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-11.38.26:466][393]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.12-11.38.33:442][778]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-11.38.33:445][778]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.38.33:871][796]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2016.03.12-11.38.33:871][796]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-11.38.33:871][796]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.03.12-11.38.35:075][863]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-11.38.35:078][863]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.38.35:559][885]MaterialEditorStats: Info Base pass shader without light map: 17 instructions
+[2016.03.12-11.38.35:559][885]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-11.38.35:559][885]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.03.12-11.38.36:336][926]LogMaterialEditor: Applying material OutlineMaterialPost
+[2016.03.12-11.38.37:120][926]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.12-11.38.37:125][926]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.38.37:185][926]LogMaterial: Missing cached shader map for material OutlineMaterialPost, compiling. 
+[2016.03.12-11.38.37:198][926]LogMaterial: Missing cached shader map for material OutlineMaterialPost, compiling. 
+[2016.03.12-11.38.37:204][926]LogMaterial: 0.001020 seconds spent updating 1 materials, 1 interfaces, 2 instances, 0 with static permutations.
+[2016.03.12-11.38.38:881][946]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2016.03.12-11.38.38:881][946]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-11.38.38:881][946]MaterialEditorStats: Info Texture samplers: 1/16
+[2016.03.12-11.38.50:957][538]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-11.38.50:958][538]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-11.38.50:958][538]LogMaterial:Warning: 	Missing Material Function
+[2016.03.12-11.38.50:958][538]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2016.03.12-11.38.51:056][538]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.03.12-11.38.51:056][538]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.03.12-11.38.51:056][538]LogMaterial:Warning: 	Missing Material Function
+[2016.03.12-11.38.51:056][538]LogMaterial:Warning: 	(Node If) If input A must be of type float.
+[2016.03.12-11.38.51:056][538]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.38.51:084][538]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.03.12-11.38.51:087][538]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.03.12-11.38.51:090][538]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2016.03.12-11.38.51:093][538]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2016.03.12-11.38.51:097][538]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_7, compiling. 
+[2016.03.12-11.38.51:102][538]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_8, compiling. 
+[2016.03.12-11.38.51:106][538]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.03.12-11.38.51:114][538]MaterialEditorStats:Error: Error [SM5] Missing Material Function
+[2016.03.12-11.38.51:114][538]MaterialEditorStats:Error: Error [SM5] (Node If) If input A must be of type float.
+[2016.03.12-11.39.42:216][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C79239580
+[2016.03.12-11.39.42:219][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C19A14AE0
+[2016.03.12-11.39.42:222][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C25F67880
+[2016.03.12-11.39.42:223][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C32F99C60
+[2016.03.12-11.39.42:224][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C25042A20
+[2016.03.12-11.39.42:226][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C259B6520
+[2016.03.12-11.39.46:211][147]LogSavePackage: Save=3927.319824ms
+[2016.03.12-11.39.46:211][147]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/FirstPersonExampleMap_Auto1AE6EBC40408E8F753935C08F1E5BCE5E.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2016.03.12-11.39.46:215][147]LogSavePackage: Total save time: 3971.752416ms
+[2016.03.12-11.39.46:215][147]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap
+[2016.03.12-11.39.46:218][147]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 4.050
+[2016.03.12-11.39.46:218][147]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.050
+[2016.03.12-11.39.46:226][147]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OutlineMaterialPost] ([1] browsable assets)...
+[2016.03.12-11.39.46:249][147]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OutlineMaterialPost.OutlineMaterialPost]
+[2016.03.12-11.39.46:249][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/OutlineMaterialPost]
+[2016.03.12-11.39.46:271][147]LogSavePackage: Save=11.818401ms
+[2016.03.12-11.39.46:271][147]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/OutlineMaterialPost_Auto114302F884903C13EA503C382B62DC08A.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/Autosaves/Game/OutlineMaterialPost_Auto1.uasset'
+[2016.03.12-11.39.46:274][147]LogSavePackage: Total save time: 22.447336ms
+[2016.03.12-11.39.46:274][147]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/Autosaves/Game/OutlineMaterialPost_Auto1.uasset
+[2016.03.12-11.39.46:274][147]LogFileHelpers: Auto-saving content packages took 0.054
+[2016.03.12-11.42.36:153][859]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C25F65E40
+[2016.03.12-11.42.58:649][ 39]LogMaterial: Missing cached shader map for material PP_OutlineCustomDepthOcclusion, compiling. 
+[2016.03.12-11.43.00:937][191]LogMaterial: Missing cached shader map for material PP_OutlineCustomDepthOcclusion, compiling. 
+[2016.03.12-11.43.01:110][191]LogMaterial: Missing cached shader map for material PP_OutlineCustomDepthOcclusion, compiling. 
+[2016.03.12-11.43.01:114][191]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.43.01:141][191]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.03.12-11.43.02:305][235]MaterialEditorStats: Info Base pass shader without light map: 97 instructions
+[2016.03.12-11.43.02:306][235]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-11.43.02:306][235]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.03.12-11.43.12:170][719]LogEditorViewport: Clicking on Actor (LMB): BrickActor_C (BrickActor2)
+[2016.03.12-11.43.13:735][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.12-11.43.24:652][275]LogLinker:Warning: Can't find file '/Game/Base/PP_OutlineCustomDepthOcclusion'
+[2016.03.12-11.43.24:652][275]LogLinker:Warning: Can't find file for asset '/Game/Base/PP_OutlineCustomDepthOcclusion' while loading ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset.
+[2016.03.12-11.43.24:652][275]LoadErrors:Error: Error /Game/PP_OutlineCustomDepthOcclusion_Inst : Can't find file for asset. /Game/Base/PP_OutlineCustomDepthOcclusion
+[2016.03.12-11.43.24:652][275]LogLinker:Warning: Can't find file '/Game/Base/PP_OutlineCustomDepthOcclusion'
+[2016.03.12-11.43.24:652][275]LogLinker:Warning: Can't find file for asset '/Game/Base/PP_OutlineCustomDepthOcclusion' while loading ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset.
+[2016.03.12-11.43.24:653][275]LogLinker:Warning: Can't find file '/Game/Base/PP_OutlineCustomDepthOcclusion'
+[2016.03.12-11.43.24:653][275]LoadErrors: Info Failed to load /Game/Base/PP_OutlineCustomDepthOcclusion.PP_OutlineCustomDepthOcclusion Referenced by PP_OutlineCustomDepthOcclusion_Inst
+[2016.03.12-11.43.24:654][275]LogLinker:Warning: Can't find file for asset '/Game/Base/PP_OutlineCustomDepthOcclusion' while loading NULL.
+[2016.03.12-11.43.24:815][275]LogRenderer: Reallocating scene render targets to support 1392x932 (Frame:95494).
+[2016.03.12-11.43.34:437][942]LogEditorViewport: Clicking on Actor (LMB): BrickActor_C (BrickActor2)
+[2016.03.12-11.43.35:287][990]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.03.12-11.43.35:429][990]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.03.12-11.43.35:432][990]LogMaterial: 0.000209 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.43.35:461][990]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.03.12-11.43.36:584][ 33]MaterialEditorStats: Info Base pass shader without light map: 97 instructions
+[2016.03.12-11.43.36:584][ 33]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-11.43.36:584][ 33]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.03.12-11.43.52:580][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C2532B9C0
+[2016.03.12-11.43.52:581][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C24E45760
+[2016.03.12-11.43.52:582][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C8BFB89A0
+[2016.03.12-11.43.52:583][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C257E07C0
+[2016.03.12-11.44.09:032][861]LogSavePackage: Save=10.882668ms
+[2016.03.12-11.44.09:033][861]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/PP_OutlineCustomDepthOcclusion_Inst63FDCDCA46E3E8AD1FFCCCA419578E9C.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset'
+[2016.03.12-11.44.09:037][861]LogSavePackage: Total save time: 15.768625ms
+[2016.03.12-11.44.09:037][861]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset
+[2016.03.12-11.44.31:472][427]LogSavePackage: Save=13.550535ms
+[2016.03.12-11.44.31:472][427]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/PP_OutlineCustomDepthOcclusion_Inst51A055A44D620356265496BF4A245896.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset'
+[2016.03.12-11.44.31:477][427]LogSavePackage: Total save time: 32.606941ms
+[2016.03.12-11.44.31:477][427]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset
+[2016.03.12-11.44.33:839][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-11.44.33:839][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.12-11.44.33:839][624]PIE: New page: PIE session: FirstPersonExampleMap (Mar 12, 2016, 1:44:33 PM)
+[2016.03.12-11.44.33:839][624]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.12-11.44.33:876][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036674s)
+[2016.03.12-11.44.33:878][624]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.12-11.44.33:878][624]LogPlayLevel: PIE: World Init took: (0.001725s)
+[2016.03.12-11.44.33:878][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.038876s)
+[2016.03.12-11.44.33:927][624]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C53C9F2E0
+[2016.03.12-11.44.33:991][624]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C198E5620
+[2016.03.12-11.44.33:991][624]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.12-11.44.34:010][624]LogInit: FAudioDevice initialized.
+[2016.03.12-11.44.34:075][624]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.12-11.44.34:085][624]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.12-12.44.34
+[2016.03.12-11.44.34:085][624]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.44.34:085][624]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.44.34:086][624]LogWorld: Bringing up level for play took: 0.008543
+[2016.03.12-11.44.34:088][624]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.156
+[2016.03.12-11.44.34:088][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-11.44.34:711][687]LogTemp:Warning: Fired
+[2016.03.12-11.44.34:711][687]LogTemp:Warning: 59501312
+[2016.03.12-11.44.35:860][811]LogTemp:Warning: Fired
+[2016.03.12-11.44.35:861][811]LogTemp:Warning: 59501312
+[2016.03.12-11.44.36:597][892]LogTemp:Warning: Fired
+[2016.03.12-11.44.36:597][892]LogTemp:Warning: 59501312
+[2016.03.12-11.44.38:463][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-11.44.38:528][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-11.44.38:571][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C8BFB8180
+[2016.03.12-11.44.50:175][722]LogSavePackage: Save=10.888046ms
+[2016.03.12-11.44.50:175][722]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/PP_OutlineCustomDepthOcclusion_InstE011E3FC4D485AECA272C9A3D1ECFCD9.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset'
+[2016.03.12-11.44.50:180][722]LogSavePackage: Total save time: 21.980938ms
+[2016.03.12-11.44.50:180][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset
+[2016.03.12-11.44.51:999][818]LogMaterial: Missing cached shader map for material PP_OutlineCustomDepthOcclusion, compiling. 
+[2016.03.12-11.44.52:143][818]LogMaterial: Missing cached shader map for material PP_OutlineCustomDepthOcclusion, compiling. 
+[2016.03.12-11.44.52:146][818]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.44.52:173][818]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.03.12-11.44.53:327][863]MaterialEditorStats: Info Base pass shader without light map: 97 instructions
+[2016.03.12-11.44.53:327][863]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-11.44.53:327][863]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.03.12-11.45.23:520][345]LogSavePackage: Save=10.310179ms
+[2016.03.12-11.45.23:520][345]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/PP_OutlineCustomDepthOcclusion_InstA38D210A40E62C54023DCE91B7E60373.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset'
+[2016.03.12-11.45.23:525][345]LogSavePackage: Total save time: 21.762893ms
+[2016.03.12-11.45.23:525][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset
+[2016.03.12-11.45.26:691][511]LogSavePackage: Save=2.571556ms
+[2016.03.12-11.45.26:691][511]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/PP_OutlineCustomDepthOcclusion_Inst98D5BA6240EC5634F409EF9DF225DB4C.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset'
+[2016.03.12-11.45.26:694][511]LogSavePackage: Total save time: 12.349825ms
+[2016.03.12-11.45.26:694][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset
+[2016.03.12-11.45.31:803][830]LogSavePackage: Save=10.418713ms
+[2016.03.12-11.45.31:803][830]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/PP_OutlineCustomDepthOcclusion_Inst4A56900C4A93E3AA02FEA8A6D9A2864C.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset'
+[2016.03.12-11.45.31:809][830]LogSavePackage: Total save time: 22.045959ms
+[2016.03.12-11.45.31:809][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset
+[2016.03.12-11.45.34:279][988]LogEditorViewport: Clicking on Actor (LMB): BrickActor_C (BrickActor)
+[2016.03.12-11.45.46:326][659]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2016.03.12-11.45.46:444][659]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling. 
+[2016.03.12-11.45.46:447][659]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.12-11.45.46:478][659]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.03.12-11.45.47:904][707]MaterialEditorStats: Info Base pass shader without light map: 97 instructions
+[2016.03.12-11.45.47:904][707]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.03.12-11.45.47:904][707]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.03.12-11.46.01:874][454]LogSavePackage: Save=10.976046ms
+[2016.03.12-11.46.01:874][454]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/PP_OutlineCustomDepthOcclusion_InstB27C1DA04AE0E2F3162E8BB3D3F58ACC.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset'
+[2016.03.12-11.46.01:879][454]LogSavePackage: Total save time: 22.937205ms
+[2016.03.12-11.46.01:879][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset
+[2016.03.12-11.46.05:118][639]LogSavePackage: Save=13.172624ms
+[2016.03.12-11.46.05:118][639]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/PP_OutlineCustomDepthOcclusion_Inst43E89FCB41DD5C743CEAC28EA4E5826D.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset'
+[2016.03.12-11.46.05:125][639]LogSavePackage: Total save time: 30.190848ms
+[2016.03.12-11.46.05:125][639]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset
+[2016.03.12-11.47.47:892][435]LogSavePackage: Save=11.057201ms
+[2016.03.12-11.47.47:892][435]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/PP_OutlineCustomDepthOcclusion_Inst806E7049445DBF62F54F0E8502813AF5.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset'
+[2016.03.12-11.47.47:897][435]LogSavePackage: Total save time: 24.638537ms
+[2016.03.12-11.47.47:897][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/PP_OutlineCustomDepthOcclusion_Inst.uasset
+[2016.03.12-11.47.55:317][712]LogActor:Warning: BrickActor_C /Engine/Transient.World_21:PersistentLevel.BrickActor_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.48.05:642][236]BlueprintLog: New page: Compile BrickActor
+[2016.03.12-11.48.05:682][236]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.48.05:684][236]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.48.05:685][236]LogActor:Warning: BrickActor_C /Engine/Transient.World_21:PersistentLevel.BrickActor_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.48.05:803][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C53C9C720
+[2016.03.12-11.48.05:804][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C564331A0
+[2016.03.12-11.48.05:806][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C25537A60
+[2016.03.12-11.48.05:807][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C53C9CB80
+[2016.03.12-11.48.05:817][236]BlueprintEditorCompileResults: Info [1291.65] Compile of BrickActor successful! [in 174 ms]
+[2016.03.12-11.48.06:173][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BrickActor" FILE="../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/BrickActor.uasset" SILENT=true
+[2016.03.12-11.48.06:245][251]LogSavePackage: Save=60.481430ms
+[2016.03.12-11.48.06:246][251]LogSavePackage: Moving '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Saved/BrickActor886C119A4935B8CD793733869569B2DC.tmp' to '../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/BrickActor.uasset'
+[2016.03.12-11.48.06:251][251]LogSavePackage: Total save time: 75.536765ms
+[2016.03.12-11.48.06:251][251]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jesper/Documents/GitHub/ByggaSaker/TowerBollocks/Content/BrickActor.uasset
+[2016.03.12-11.48.15:294][812]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-11.48.15:294][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.12-11.48.15:294][812]PIE: New page: PIE session: FirstPersonExampleMap (Mar 12, 2016, 1:48:15 PM)
+[2016.03.12-11.48.15:294][812]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.12-11.48.15:329][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035354s)
+[2016.03.12-11.48.15:331][812]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.12-11.48.15:331][812]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2016.03.12-11.48.15:331][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037146s)
+[2016.03.12-11.48.15:436][812]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.12-11.48.15:455][812]LogInit: FAudioDevice initialized.
+[2016.03.12-11.48.15:493][812]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.12-11.48.15:502][812]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.12-12.48.15
+[2016.03.12-11.48.15:502][812]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.48.15:502][812]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.48.15:503][812]LogWorld: Bringing up level for play took: 0.007641
+[2016.03.12-11.48.15:504][812]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.739
+[2016.03.12-11.48.15:505][812]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-11.48.15:940][855]LogTemp:Warning: Fired
+[2016.03.12-11.48.15:940][855]LogTemp:Warning: 939831808
+[2016.03.12-11.48.17:670][ 44]LogTemp:Warning: Fired
+[2016.03.12-11.48.17:670][ 44]LogTemp:Warning: 939831808
+[2016.03.12-11.48.23:955][741]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-11.48.24:019][741]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-11.48.24:105][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C24702840
+[2016.03.12-11.48.31:135][ 29]LogEditorActor: Deleted Actor: PostProcessVolume
+[2016.03.12-11.48.31:181][ 29]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2016.03.12-11.48.48:612][930]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001C24E8CD60
+[2016.03.12-11.48.51:420][115]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-11.48.51:420][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.12-11.48.51:420][115]PIE: New page: PIE session: FirstPersonExampleMap (Mar 12, 2016, 1:48:51 PM)
+[2016.03.12-11.48.51:420][115]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.12-11.48.51:454][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033545s)
+[2016.03.12-11.48.51:455][115]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.12-11.48.51:455][115]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2016.03.12-11.48.51:455][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.035054s)
+[2016.03.12-11.48.51:559][115]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.12-11.48.51:578][115]LogInit: FAudioDevice initialized.
+[2016.03.12-11.48.51:621][115]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.12-11.48.51:631][115]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.12-12.48.51
+[2016.03.12-11.48.51:631][115]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.48.51:631][115]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-11.48.51:631][115]LogWorld: Bringing up level for play took: 0.008788
+[2016.03.12-11.48.51:633][115]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.611
+[2016.03.12-11.48.51:633][115]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Fir
+=======
+﻿[2016.03.12-12.48.39:637][  0]Log file open, 03/12/16 13:48:39
+[2016.03.12-12.48.39:637][  0]LogInit:Display: Running engine for game: TowerBollocks
+[2016.03.12-12.48.39:637][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.12-12.48.39:637][  0]LogInit:Display: RandInit(255834194) SRandInit(255834195).
+[2016.03.12-12.48.39:637][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.12-12.48.39:637][  0]LogStats: Stats thread started at 0.119154
+[2016.03.12-12.48.39:637][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.12-12.48.39:637][  0]LogInit: API Version: 2758231
+[2016.03.12-12.48.39:637][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.12-12.48.39:637][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.12-12.48.39:637][  0]LogInit: Build Configuration: Development
+[2016.03.12-12.48.39:637][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.12-12.48.39:637][  0]LogInit: Command line:  
+[2016.03.12-12.48.39:637][  0]LogInit: Base directory: D:/Programs/Programming/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.12-12.48.39:637][  0]LogInit: Rocket: 1
+[2016.03.12-12.48.39:713][  0]LogInit: Using libcurl 7.41.0
+[2016.03.12-12.48.39:713][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.12-12.48.39:713][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.12-12.48.39:713][  0]LogInit:  - other features:
+[2016.03.12-12.48.39:713][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.12-12.48.39:713][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.12-12.48.39:713][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.12-12.48.39:713][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.12-12.48.39:713][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.12-12.48.39:713][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.12-12.48.39:713][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.12-12.48.39:713][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.12-12.48.39:713][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.12-12.48.39:713][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.12-12.48.39:780][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.12-12.48.39:785][  0]LogInit: Object subsystem initialized
+[2016.03.12-12.48.39:785][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.12-12.48.39:785][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.12-12.48.39:790][  0]LogInit: Computer: MEI
+[2016.03.12-12.48.39:790][  0]LogInit: User: MattiasAndersson
+[2016.03.12-12.48.39:790][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.12-12.48.39:790][  0]LogInit: High frequency timer resolution =3.906241 MHz
+[2016.03.12-12.48.39:790][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.03.12-12.48.39:790][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.12-12.48.39:790][  0]LogMemory: Process Physical Memory: 56.17 MB used, 56.17 MB peak
+[2016.03.12-12.48.39:790][  0]LogMemory: Process Virtual Memory: 58.72 MB used, 58.72 MB peak
+[2016.03.12-12.48.39:790][  0]LogMemory: Physical Memory: 5320.98 MB used, 16334.32 MB total
+[2016.03.12-12.48.39:790][  0]LogMemory: Virtual Memory: 384.78 MB used, 134217728.00 MB total
+[2016.03.12-12.48.40:133][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.12-12.48.40:660][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2016.03.12-12.48.40:660][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 1 output[s]
+[2016.03.12-12.48.40:661][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.12-12.48.40:661][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8167MB of shared system memory, 0 output[s]
+[2016.03.12-12.48.40:661][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.12-12.48.40:664][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.12-12.48.40:664][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.12-12.48.40:674][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.12-12.48.40:689][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/Intermediate/Shaders/WorkingDirectory/17540/).
+[2016.03.12-12.48.40:689][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MATTIA~1/AppData/Local/Temp/UnrealShaderWorkingDir/B246BAB042787449DD7795AB82AA4610/'.
+[2016.03.12-12.48.40:689][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.12-12.48.41:460][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.12-12.48.41:487][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.12-12.48.41:500][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.12-12.48.41:514][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.12-12.48.41:536][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.12-12.48.41:553][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.12-12.48.41:589][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.12-12.48.41:629][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.12-12.48.41:653][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.12-12.48.41:676][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.12-12.48.41:693][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.12-12.48.41:771][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.12-12.48.41:771][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.12-12.48.41:796][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.12-12.48.41:877][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.12-12.48.41:906][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.12-12.48.41:930][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.12-12.48.41:955][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.12-12.48.41:955][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.12-12.48.42:425][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.12-12.48.42:591][  0]LogDerivedDataCache: Loaded boot cache 0.17s 41MB C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.12-12.48.42:591][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.12-12.48.42:591][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.12-12.48.42:591][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.12-12.48.42:591][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.12-12.48.42:591][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.12-12.48.42:668][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.12-12.48.42:679][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.12-12.48.47:558][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.12-12.48.47:559][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.12-12.48.47:843][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.12-12.48.47:843][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.12-12.48.48:097][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.12-12.49.02:391][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.12-12.49.03:035][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2016.03.12-12.49.04:247][  0]SourceControl: Info Source control is disabled
+[2016.03.12-12.49.04:248][  0]SourceControl: Info Source control is disabled
+[2016.03.12-12.49.04:299][  0]SourceControl: Info Source control is disabled
+[2016.03.12-12.49.04:340][  0]SourceControl: Info Source control is disabled
+[2016.03.12-12.49.05:200][  0]LogObj: 30884 objects as part of root set at end of initial load.
+[2016.03.12-12.49.05:200][  0]LogUObjectAllocator: 6901104 out of 0 bytes used by permanent object pool.
+[2016.03.12-12.49.05:355][  0]LogEngine: Initializing Engine...
+[2016.03.12-12.49.05:357][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.12-12.49.05:387][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.12-12.49.05:530][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.12-12.49.05:538][  0]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.12-12.49.05:544][  0]LogInit: FAudioDevice initialized.
+[2016.03.12-12.49.05:560][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Mattias Andersson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.12-12.49.05:562][  0]LogInit: Texture streaming: Enabled
+[2016.03.12-12.49.05:604][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.12-12.49.05:604][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.12-12.49.05:604][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7e4384a44e35e80e9abae4a1743bb6c3|31b81c4c055e4cb8b177921afbb09a3c|2a65b65a-1eb6-4f86-8cad-8e48130d1610
+[2016.03.12-12.49.05:604][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.12-12.49.05:621][  0]LogInit: Transaction tracking system initialized
+[2016.03.12-12.49.05:839][  0]BlueprintLog: New page: Editor Load
+[2016.03.12-12.49.06:633][  0]LocalizationService: Info Localization service is disabled
+[2016.03.12-12.49.07:233][  0]LogConsoleResponse:Display: 
+[2016.03.12-12.49.07:486][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.12-12.49.07:874][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Content/' took 0.01s
+[2016.03.12-12.49.07:874][  0]SourceControl: Info Source control is disabled
+[2016.03.12-12.49.07:875][  0]Cmd: MAP LOAD FILE="../../../../../../../Files/Unreal/ByggaSaker/TowerBollocks/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.12-12.49.07:875][  0]LightingResults: New page: Lighting Build
+[2016.03.12-12.49.07:877][  0]MapCheck: New page: Map Check
+[2016.03.12-12.49.07:877][  0]LightingResults: New page: Lighting Build
+[2016.03.12-12.49.07:886][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E825475620
+[2016.03.12-12.49.08:132][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.12-12.49.08:137][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.12-12.49.08:137][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.12-12.49.08:211][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.007ms to complete.
+[2016.03.12-12.49.08:211][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.336
+[2016.03.12-12.49.08:382][  0]LogCollectionManager: Loaded 0 collections in 0.001451 seconds
+[2016.03.12-12.49.08:418][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Saved/Collections/' took 0.01s
+[2016.03.12-12.49.08:418][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Content/Developers/MattiasAndersson/Collections/' took 0.01s
+[2016.03.12-12.49.08:418][  0]LogFileCache: Scanning file cache for directory 'D:/Files/Unreal/ByggaSaker/TowerBollocks/Content/Collections/' took 0.01s
+[2016.03.12-12.49.08:418][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.03.12-12.49.08:425][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1899 classes and 340 folders.
+[2016.03.12-12.49.08:430][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.03.12-12.49.10:161][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.03.12-12.49.10:211][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2016.03.12-12.49.10:280][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.12-12.49.10:284][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.12-12.49.10:306][  0]LogLoad: Full Startup: 31.71 seconds (BP compile: 0.10 seconds)
+[2016.03.12-12.49.10:314][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.12-12.49.10:317][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.12-12.49.10:318][  0]LoadErrors:Error: Error /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Failed import for ArrowComponent /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C:Arrow
+[2016.03.12-12.49.10:318][  0]LoadErrors:Error: Error /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Failed import for CameraComponent /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C:FirstPersonCamera
+[2016.03.12-12.49.10:318][  0]LoadErrors:Error: Error /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Failed import for CharacterMovementComponent /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C:CharMoveComp
+[2016.03.12-12.49.10:318][  0]LoadErrors:Error: Error /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Failed import for SkeletalMeshComponent /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.Default__FirstPersonCharacter_C:CharacterMesh0
+[2016.03.12-12.49.10:365][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.12-12.49.10:471][  0]LogRenderer: Reallocating scene render targets to support 1544x808 (Frame:2).
+[2016.03.12-12.49.10:688][  3]LogAssetRegistry: Asset discovery search completed in 7.6639 seconds
+[2016.03.12-12.49.10:688][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.12-12.49.10:688][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.03.12-12.53.23:018][262]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-12.53.23:018][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.12-12.53.23:018][262]PIE: New page: PIE session: FirstPersonExampleMap (Mar 12, 2016, 2:53:23 PM)
+[2016.03.12-12.53.23:018][262]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.12-12.53.23:040][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021294s)
+[2016.03.12-12.53.23:040][262]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.12-12.53.23:041][262]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2016.03.12-12.53.23:041][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022336s)
+[2016.03.12-12.53.23:062][262]LogInit: XAudio2 using 'BenQ GW2765-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.12-12.53.23:066][262]LogInit: FAudioDevice initialized.
+[2016.03.12-12.53.23:112][262]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.12-12.53.23:116][262]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.12-13.53.23
+[2016.03.12-12.53.23:116][262]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-12.53.23:116][262]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.12-12.53.23:117][262]LogWorld: Bringing up level for play took: 0.004154
+[2016.03.12-12.53.23:118][262]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.731
+[2016.03.12-12.53.23:118][262]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-12.53.23:449][299]LogTemp:Warning: Fired
+[2016.03.12-12.53.23:449][299]LogTemp:Warning: 1758975488
+[2016.03.12-12.53.24:683][447]LogTemp:Warning: Fired
+[2016.03.12-12.53.24:683][447]LogTemp:Warning: 1758975488
+[2016.03.12-12.53.25:625][560]LogTemp:Warning: Fired
+[2016.03.12-12.53.25:625][560]LogTemp:Warning: 1758975488
+[2016.03.12-12.53.26:408][654]LogTemp:Warning: Fired
+[2016.03.12-12.53.26:408][654]LogTemp:Warning: 1758975488
+[2016.03.12-12.53.27:408][774]LogTemp:Warning: Fired
+[2016.03.12-12.53.27:408][774]LogTemp:Warning: 1758975488
+[2016.03.12-12.53.28:783][939]LogTemp:Warning: Fired
+[2016.03.12-12.53.28:783][939]LogTemp:Warning: 1758975488
+[2016.03.12-12.53.30:591][156]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-12.53.30:624][156]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.12-12.53.30:635][156]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E8097B1F80
+[2016.03.12-12.53.31:449][245]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.12-12.53.31:615][246]Cmd: QUIT_EDITOR
+[2016.03.12-12.53.32:226][246]LogExit: Preparing to exit.
+[2016.03.12-12.53.32:586][246]LogExit: Editor shut down
+[2016.03.12-12.53.32:586][246]LogExit: Transaction tracking system shut down
+[2016.03.12-12.53.32:587][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E8168EC720
+[2016.03.12-12.53.32:587][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E833855120
+[2016.03.12-12.53.32:587][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E8335F31A0
+[2016.03.12-12.53.32:588][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002E837F65B20
+[2016.03.12-12.53.32:683][246]LogExit: Object subsystem successfully closed.
+[2016.03.12-12.53.32:695][246]LogD3D11RHI: Shutdown
+[2016.03.12-12.53.32:695][246]LogD3D11RHI: CleanupD3DDevice
+[2016.03.12-12.53.32:728][246]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.03.12-12.53.32:739][246]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.03.12-12.53.32:740][246]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.03.12-12.53.32:740][246]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.03.12-12.53.32:985][246]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.03.12-12.53.32:986][246]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.03.12-12.53.33:097][246]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.03.12-12.53.33:097][246]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.03.12-12.53.33:097][246]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.03.12-12.53.33:097][246]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.03.12-12.53.33:097][246]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.03.12-12.53.33:097][246]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.03.12-12.53.33:097][246]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.03.12-12.53.33:097][246]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.03.12-12.53.33:110][246]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.03.12-12.53.33:111][246]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.03.12-12.53.33:111][246]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.03.12-12.53.33:225][246]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.03.12-12.53.33:226][246]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.03.12-12.53.33:226][246]LogModuleManager: Shutting down and abandoning module TowerBollocks (87)
+[2016.03.12-12.53.33:226][246]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.12-12.53.33:326][246]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.12-12.53.33:326][246]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.12-12.53.33:326][246]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.12-12.53.33:328][246]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.12-12.53.33:329][246]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.12-12.53.33:329][246]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.12-12.53.33:329][246]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.12-12.53.33:329][246]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.12-12.53.33:329][246]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.12-12.53.33:329][246]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.12-12.53.33:329][246]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.12-12.53.33:329][246]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.12-12.53.33:329][246]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.12-12.53.33:329][246]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.12-12.53.33:375][246]LogDerivedDataCache: Shutdown
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.12-12.53.33:375][246]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.12-12.53.35:377][246]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.12-12.53.35:378][246]LogExit: Exiting.
+[2016.03.12-12.53.35:379][246]Log file closed, 03/12/16 13:53:35
+>>>>>>> db02cfb736c53c0584c5770680c6b0ab0d605605
+>>>>>>> a17ce158aaadd1235561abbd35064acd7fba76d3
