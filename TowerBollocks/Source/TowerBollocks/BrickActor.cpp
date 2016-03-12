@@ -36,6 +36,22 @@ void ABrickActor::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
 
+	/*
+	if (held) {
+		block->BodyInstance.bSimulatePhysics = false;
+		block->BodyInstance.SetEnableGravity(false);
+		block->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		UE_LOG(LogTemp, Warning, TEXT("Held"));
+
+	}
+	else {
+		block->BodyInstance.bSimulatePhysics = true;
+		block->BodyInstance.SetEnableGravity(true);
+		block->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+
+		UE_LOG(LogTemp, Warning, TEXT("Not held"));
+	}
+	*/
 }
 
 void ABrickActor::StartHover() {
@@ -48,14 +64,19 @@ void ABrickActor::EndHover() {
 
 void ABrickActor::BeginHold(){
 	EventBeginHold();
-	block->BodyInstance.bSimulatePhysics = false;
-	block->BodyInstance.SetEnableGravity(false);
-	block->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	ServerSetHeld(true);
 }
 
 void ABrickActor::EndHold(){
 	EventEndHold();
-	block->BodyInstance.bSimulatePhysics = true;
-	block->BodyInstance.SetEnableGravity(true);
-	block->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	ServerSetHeld(false);
 }
+
+
+bool ABrickActor::ServerSetHeld_Validate(bool held) {
+	return true; 
+}
+void ABrickActor::ServerSetHeld_Implementation(bool held) {
+	this->held = held;
+}
+

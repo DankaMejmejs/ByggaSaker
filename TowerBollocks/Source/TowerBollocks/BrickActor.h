@@ -44,9 +44,16 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Interaction)
 		void EndHold();
 
+	UFUNCTION(Server, Unreliable, WithValidation)
+		void ServerSetHeld(bool held);
+
 private: 
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* block;
+
+	UPROPERTY(EditAnywhere)
+		bool held = false;
+	
 
 	bool used;
 };
