@@ -29,6 +29,7 @@ ATowerBollocksCharacter::ATowerBollocksCharacter()
 	// Note: The ProjectileClass and the skeletal mesh/anim blueprints for Mesh1P are set in the
 	// derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
+	pickedUpObject = false;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -81,7 +82,7 @@ void ATowerBollocksCharacter::AddControllerPitchInput(float value) {
 }
 
 void ATowerBollocksCharacter::setBrickPosition_Implementation(ABrickActor* actorRef, FVector position) {
-	actorRef->SetActorLocation(position);
+		actorRef->SetActorLocation(position);
 }
 
 bool ATowerBollocksCharacter::setBrickPosition_Validate(ABrickActor* actorRef, FVector position) {
@@ -99,7 +100,7 @@ bool ATowerBollocksCharacter::addBrickRotation_Validate(ABrickActor* actorRef, F
 void ATowerBollocksCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 
-	if (IsValid(brickActorRef) && hold)
+	if (IsValid(brickActorRef) && hold && pickedUpObject)
 		setBrickPosition(brickActorRef, FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));
 		//brickActorRef->SetActorLocation(FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));
 }

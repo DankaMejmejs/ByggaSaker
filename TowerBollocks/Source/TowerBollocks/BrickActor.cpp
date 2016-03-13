@@ -74,7 +74,8 @@ void ABrickActor::EndHover() {
 }
 
 // Most likely called via RPC on server
-void ABrickActor::BeginHold(){
+void ABrickActor::BeginHold(ATowerBollocksCharacter* val){
+	ownerActor = val;
 	isHeld = true;
 	EventBeginHold();
 }

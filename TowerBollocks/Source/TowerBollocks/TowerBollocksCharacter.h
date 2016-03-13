@@ -116,5 +116,8 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool rotateObject = false;
+
+	UPROPERTY(BlueprintReadWrite)
+		bool pickedUpObject;
 };
 
