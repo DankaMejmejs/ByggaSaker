@@ -1,3 +1,1320 @@
+<<<<<<< HEAD
+﻿[2016.03.13-15.51.13:634][  0]Log file open, 03/13/16 16:51:13
+[2016.03.13-15.51.13:634][  0]LogInit:Display: Running engine for game: TowerBollocks
+[2016.03.13-15.51.13:634][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.13-15.51.13:634][  0]LogInit:Display: RandInit(-109879931) SRandInit(-109879930).
+[2016.03.13-15.51.13:634][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.13-15.51.13:634][  0]LogStats: Stats thread started at 0.061625
+[2016.03.13-15.51.13:634][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.13-15.51.13:634][  0]LogInit: API Version: 2758231
+[2016.03.13-15.51.13:634][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.13-15.51.13:634][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.13-15.51.13:634][  0]LogInit: Build Configuration: Development
+[2016.03.13-15.51.13:634][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.13-15.51.13:634][  0]LogInit: Command line:  
+[2016.03.13-15.51.13:634][  0]LogInit: Base directory: D:/Spel/Unreal Launcher/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.13-15.51.13:634][  0]LogInit: Rocket: 1
+[2016.03.13-15.51.13:640][  0]LogInit: Using libcurl 7.41.0
+[2016.03.13-15.51.13:640][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.13-15.51.13:640][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.13-15.51.13:640][  0]LogInit:  - other features:
+[2016.03.13-15.51.13:640][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.13-15.51.13:640][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.13-15.51.13:640][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.13-15.51.13:640][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.13-15.51.13:640][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.13-15.51.13:640][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.13-15.51.13:640][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.13-15.51.13:640][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.13-15.51.13:640][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.13-15.51.13:640][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.13-15.51.13:643][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.13-15.51.13:648][  0]LogInit: Object subsystem initialized
+[2016.03.13-15.51.13:649][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.13-15.51.13:649][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.13-15.51.13:655][  0]LogInit: Computer: DESKTOP-MCVF016
+[2016.03.13-15.51.13:655][  0]LogInit: User: Simon
+[2016.03.13-15.51.13:655][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.13-15.51.13:655][  0]LogInit: High frequency timer resolution =3.320322 MHz
+[2016.03.13-15.51.13:655][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.13-15.51.13:655][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.13-15.51.13:655][  0]LogMemory: Process Physical Memory: 56.31 MB used, 56.31 MB peak
+[2016.03.13-15.51.13:655][  0]LogMemory: Process Virtual Memory: 58.74 MB used, 58.74 MB peak
+[2016.03.13-15.51.13:655][  0]LogMemory: Physical Memory: 6680.93 MB used, 16324.79 MB total
+[2016.03.13-15.51.13:655][  0]LogMemory: Virtual Memory: 384.42 MB used, 134217728.00 MB total
+[2016.03.13-15.51.13:685][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.13-15.51.14:089][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.03.13-15.51.14:089][  0]LogD3D11RHI: Adapter has 4007MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
+[2016.03.13-15.51.14:090][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.13-15.51.14:090][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
+[2016.03.13-15.51.14:090][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.13-15.51.14:094][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.13-15.51.14:094][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.13-15.51.14:107][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.13-15.51.14:522][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../../Kod/Projekt/ByggaSaker/TowerBollocks/Intermediate/Shaders/WorkingDirectory/10044/).
+[2016.03.13-15.51.14:523][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Simon/AppData/Local/Temp/UnrealShaderWorkingDir/143313DB4D90F5E6A7A44ABF128C6E1E/'.
+[2016.03.13-15.51.14:523][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.13-15.51.15:151][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.13-15.51.15:154][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.13-15.51.15:157][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.13-15.51.15:160][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.13-15.51.15:162][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.13-15.51.15:164][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.13-15.51.15:166][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.13-15.51.15:169][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.13-15.51.15:171][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.13-15.51.15:173][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.13-15.51.15:175][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.13-15.51.15:180][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.13-15.51.15:180][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.13-15.51.15:180][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.13-15.51.15:195][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.13-15.51.15:197][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.13-15.51.15:199][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.13-15.51.15:202][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.13-15.51.15:202][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.13-15.51.15:244][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.13-15.51.15:286][  0]LogDerivedDataCache: Loaded boot cache 0.04s 46MB C:/Users/Simon/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.13-15.51.15:286][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Simon/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.13-15.51.15:286][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Kod/Projekt/ByggaSaker/TowerBollocks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.13-15.51.15:286][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.13-15.51.15:286][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Kod/Projekt/ByggaSaker/TowerBollocks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.13-15.51.15:286][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.13-15.51.15:338][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.13-15.51.15:350][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.13-15.51.15:469][  0]LogCollisionProfile:Warning: Profile (Oijk) - Custom Channel Name = 'GameTraceChannel2' hasn't been found
+[2016.03.13-15.51.15:484][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.13-15.51.15:487][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.13-15.51.15:568][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.13-15.51.15:568][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.13-15.51.15:727][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.13-15.51.16:281][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.13-15.51.16:354][  0]LogK2Compiler:Warning: ValidateVariableNames name Transform (used in /Game/BrickActor.BrickActor) is already taken by /Script/TowerBollocks.BrickActor:transform
+[2016.03.13-15.51.16:444][  0]LogLinker:Warning: Asset '../../../../../../../Kod/Projekt/ByggaSaker/TowerBollocks/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.13-15.51.16:553][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.03.13-15.51.16:660][  0]SourceControl: Info Source control is disabled
+[2016.03.13-15.51.16:685][  0]SourceControl: Info Source control is disabled
+[2016.03.13-15.51.16:692][  0]SourceControl: Info Source control is disabled
+[2016.03.13-15.51.16:697][  0]SourceControl: Info Source control is disabled
+[2016.03.13-15.51.16:814][  0]LogObj: 36337 objects as part of root set at end of initial load.
+[2016.03.13-15.51.16:814][  0]LogUObjectAllocator: 8808080 out of 0 bytes used by permanent object pool.
+[2016.03.13-15.51.16:860][  0]LogEngine: Initializing Engine...
+[2016.03.13-15.51.16:861][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.13-15.51.16:861][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.13-15.51.16:955][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.13-15.51.16:962][  0]LogInit: XAudio2 using 'Speakers (ASUS Xonar DGX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.13-15.51.16:968][  0]LogInit: FAudioDevice initialized.
+[2016.03.13-15.51.16:992][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/Simon/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.13-15.51.16:994][  0]LogInit: Texture streaming: Enabled
+[2016.03.13-15.51.16:997][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.13-15.51.16:997][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.13-15.51.16:997][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId bdfb2f8641775cde899fcaa5af1729c4|a54383e42afc4928b124ca88cf498a03|16c6e756-1c3b-49df-b52e-6e0e14a50a7f
+[2016.03.13-15.51.16:997][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.13-15.51.17:003][  0]LogInit: Transaction tracking system initialized
+[2016.03.13-15.51.17:014][  0]BlueprintLog: New page: Editor Load
+[2016.03.13-15.51.17:096][  0]LocalizationService: Info Localization service is disabled
+[2016.03.13-15.51.17:138][  0]LogConsoleResponse:Display: 
+[2016.03.13-15.51.17:223][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.13-15.51.17:250][  0]LogFileCache: Scanning file cache for directory 'D:/Kod/Projekt/ByggaSaker/TowerBollocks/Content/' took 0.01s
+[2016.03.13-15.51.17:250][  0]SourceControl: Info Source control is disabled
+[2016.03.13-15.51.17:251][  0]Cmd: MAP LOAD FILE="../../../../../../../Kod/Projekt/ByggaSaker/TowerBollocks/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.13-15.51.17:251][  0]LightingResults: New page: Lighting Build
+[2016.03.13-15.51.17:252][  0]MapCheck: New page: Map Check
+[2016.03.13-15.51.17:252][  0]LightingResults: New page: Lighting Build
+[2016.03.13-15.51.17:264][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022AD10F3B00
+[2016.03.13-15.51.17:418][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.13-15.51.17:424][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.13-15.51.17:424][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube10.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube11.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube12.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube13.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube14.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube15.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube16.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube17.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube18.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube19.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube20.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube21.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube8.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube9.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BigWall.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BigWall2.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube10.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube11.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube12.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube13.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube14.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube15.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube16.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube17.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube18.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube19.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube20.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube21.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube8.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube9.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Floor_12.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:464][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall1.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:465][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall2_11.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:465][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall3.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:465][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Wall4.StaticMeshComponent0 : Externally referenced 
+[2016.03.13-15.51.17:465][  0]MapCheck: Info Map check complete: 0 Error(s), 35 Warning(s), took 40.482ms to complete.
+[2016.03.13-15.51.17:470][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.220
+[2016.03.13-15.51.17:564][  0]LogCollectionManager: Loaded 0 collections in 0.000700 seconds
+[2016.03.13-15.51.17:600][  0]LogFileCache: Scanning file cache for directory 'D:/Kod/Projekt/ByggaSaker/TowerBollocks/Saved/Collections/' took 0.01s
+[2016.03.13-15.51.17:600][  0]LogFileCache: Scanning file cache for directory 'D:/Kod/Projekt/ByggaSaker/TowerBollocks/Content/Developers/Simon/Collections/' took 0.01s
+[2016.03.13-15.51.17:600][  0]LogFileCache: Scanning file cache for directory 'D:/Kod/Projekt/ByggaSaker/TowerBollocks/Content/Collections/' took 0.01s
+[2016.03.13-15.51.17:600][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.03.13-15.51.17:608][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1900 classes and 340 folders.
+[2016.03.13-15.51.17:611][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.03.13-15.51.17:641][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.03.13-15.51.17:647][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.03.13-15.51.17:685][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.13-15.51.17:689][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.13-15.51.17:712][  0]LogLoad: Full Startup: 4.52 seconds (BP compile: 0.09 seconds)
+[2016.03.13-15.51.17:721][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.13-15.51.17:723][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.13-15.51.17:764][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.13-15.51.17:873][  0]LogRenderer: Reallocating scene render targets to support 1212x564 (Frame:2).
+[2016.03.13-15.51.18:098][  4]LogAssetRegistry: Asset discovery search completed in 1.5557 seconds
+[2016.03.13-15.51.18:098][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.13-15.51.18:098][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2016.03.13-15.51.19:778][198]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.51.19:778][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.13-15.51.19:779][198]PIE: New page: PIE session: FirstPersonExampleMap (Mar 13, 2016, 5:51:19 PM)
+[2016.03.13-15.51.19:779][198]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap
+[2016.03.13-15.51.19:802][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022403s)
+[2016.03.13-15.51.19:803][198]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.13-15.51.19:803][198]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2016.03.13-15.51.19:803][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.023689s)
+[2016.03.13-15.51.19:803][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.13-15.51.19:803][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.13-15.51.19:826][198]LogInit: XAudio2 using 'Speakers (ASUS Xonar DGX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.13-15.51.19:829][198]LogInit: FAudioDevice initialized.
+[2016.03.13-15.51.19:927][198]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.13-15.51.19:931][198]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.13-16.51.19
+[2016.03.13-15.51.19:931][198]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.19:931][198]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.19:931][198]LogWorld: Bringing up level for play took: 0.003603
+[2016.03.13-15.51.19:932][198]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.13-15.51.19:933][198]LogInit: WinSock: I am DESKTOP-MCVF016 (192.168.1.62:0)
+[2016.03.13-15.51.19:933][198]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.03.13-15.51.19:951][198]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap 0.99
+[2016.03.13-15.51.19:952][198]PIE: New page: PIE session: FirstPersonExampleMap (Mar 13, 2016, 5:51:19 PM)
+[2016.03.13-15.51.20:031][198]LogNet: Browse: 127.0.0.1//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2016.03.13-15.51.20:031][198]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.13-15.51.20:031][198]LogNet: Game client on port 7777, rate 10000
+[2016.03.13-15.51.20:031][198]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: towerbollocks, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1860829494
+[2016.03.13-15.51.20:047][198]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 1.086
+[2016.03.13-15.51.20:055][198]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.51.20:056][198]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.03.13-15.51.20:056][198]LogNet: Open FirstPersonExampleMap 03/13/16 16:51:20 127.0.0.1
+[2016.03.13-15.51.20:056][198]LogNet: Added client connection.  Remote address = 127.0.0.1:53416
+[2016.03.13-15.51.20:056][198]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.03.13-15.51.20:056][198]LogNet: Remote platform little endian=1
+[2016.03.13-15.51.20:056][198]LogNet: This platform little endian=1
+[2016.03.13-15.51.20:056][198]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: towerbollocks, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1860829494
+[2016.03.13-15.51.20:068][199]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.03.13-15.51.20:069][199]LogNet: Welcomed by server (Level: /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Script/TowerBollocks.TowerBollocksGameMode)
+[2016.03.13-15.51.20:075][199]LogRenderer: Reallocating scene render targets to support 1212x600 (Frame:196).
+[2016.03.13-15.51.20:092][199]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Script/TowerBollocks.TowerBollocksGameMode
+[2016.03.13-15.51.20:104][199]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022ABFE31300
+[2016.03.13-15.51.20:105][199]Cmd: MEM
+[2016.03.13-15.51.20:117][199]LogMemory: Platform Memory Stats for Windows
+[2016.03.13-15.51.20:117][199]LogMemory: Process Physical Memory: 752.82 MB used, 759.77 MB peak
+[2016.03.13-15.51.20:117][199]LogMemory: Process Virtual Memory: 1641.96 MB used, 1641.96 MB peak
+[2016.03.13-15.51.20:117][199]LogMemory: Physical Memory: 7435.81 MB used, 16324.79 MB total
+[2016.03.13-15.51.20:117][199]LogMemory: Virtual Memory: 2329.11 MB used, 134217728.00 MB total
+[2016.03.13-15.51.20:117][199]LogMemory: 
+[2016.03.13-15.51.20:117][199]Allocator Stats for TBB: (not implemented)
+[2016.03.13-15.51.20:134][199]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.03.13-15.51.20:134][199]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.13-15.51.20:139][199]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.13-16.51.20
+[2016.03.13-15.51.20:139][199]LogWorld: Bringing up level for play took: 0.003122
+[2016.03.13-15.51.20:167][200]LogNet: Client netspeed is 10000
+[2016.03.13-15.51.20:167][200]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.03.13-15.51.20:170][200]LogNet: Join succeeded: 257
+[2016.03.13-15.51.20:765][268]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.20:766][268]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.20:766][268]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.20:766][268]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.20:766][268]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.20:767][268]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.20:767][268]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.20:767][268]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.20:776][269]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.21:072][304]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.21:766][387]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.21:767][387]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.21:767][387]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.21:767][387]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.21:767][387]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.21:768][387]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.21:768][387]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.21:768][387]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.21:777][388]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.22:079][423]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.22:770][506]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.22:771][506]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.22:771][506]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.22:771][506]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.22:772][506]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.22:772][506]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.22:772][506]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.22:772][506]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.22:780][507]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.23:083][543]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.23:774][626]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.23:775][626]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.23:775][626]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.23:775][626]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.23:775][626]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.23:776][626]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.23:776][626]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.23:776][626]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.23:784][627]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.24:083][663]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.24:776][746]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.24:777][746]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.24:777][746]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.24:777][746]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.24:778][746]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.24:778][746]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.24:778][746]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.24:778][746]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.24:785][747]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.24:794][748]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.25:085][783]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.25:758][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.51.25:811][864]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.03.13-15.51.25:855][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.51.25:865][864]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.13-15.51.25:865][864]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:53416, Time: 2016.03.13-15.51.25
+[2016.03.13-15.51.25:865][864]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2016.03.13-15.51.25:865][864]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.13-15.51.25:865][864]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.13-15.51.25
+[2016.03.13-15.51.25:865][864]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2016.03.13-15.51.25:868][864]LogExit: GameNetDriver None shut down
+[2016.03.13-15.51.25:868][864]LogExit: GameNetDriver None shut down
+[2016.03.13-15.51.25:869][864]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022AE0E8E520
+[2016.03.13-15.51.25:870][864]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022AC295C360
+[2016.03.13-15.51.45:257][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.51.45:257][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.13-15.51.45:258][738]PIE: New page: PIE session: FirstPersonExampleMap (Mar 13, 2016, 5:51:45 PM)
+[2016.03.13-15.51.45:258][738]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap
+[2016.03.13-15.51.45:273][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015189s)
+[2016.03.13-15.51.45:274][738]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.13-15.51.45:274][738]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2016.03.13-15.51.45:274][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.016334s)
+[2016.03.13-15.51.45:274][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.13-15.51.45:274][738]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.13-15.51.45:291][738]LogInit: XAudio2 using 'Speakers (ASUS Xonar DGX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.13-15.51.45:295][738]LogInit: FAudioDevice initialized.
+[2016.03.13-15.51.45:363][738]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.13-15.51.45:367][738]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.13-16.51.45
+[2016.03.13-15.51.45:367][738]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.45:367][738]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.45:368][738]LogWorld: Bringing up level for play took: 0.003370
+[2016.03.13-15.51.45:369][738]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.13-15.51.45:369][738]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2016.03.13-15.51.45:386][738]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap 0.425
+[2016.03.13-15.51.45:387][738]PIE: New page: PIE session: FirstPersonExampleMap (Mar 13, 2016, 5:51:45 PM)
+[2016.03.13-15.51.45:464][738]LogNet: Browse: 127.0.0.1//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2016.03.13-15.51.45:464][738]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.13-15.51.45:465][738]LogNet: Game client on port 7777, rate 10000
+[2016.03.13-15.51.45:465][738]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: towerbollocks, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1860829494
+[2016.03.13-15.51.45:483][738]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 0.522
+[2016.03.13-15.51.45:484][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.51.45:484][738]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.03.13-15.51.45:484][738]LogNet: Open FirstPersonExampleMap 03/13/16 16:51:45 127.0.0.1
+[2016.03.13-15.51.45:484][738]LogNet: Added client connection.  Remote address = 127.0.0.1:53417
+[2016.03.13-15.51.45:484][738]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.03.13-15.51.45:484][738]LogNet: Remote platform little endian=1
+[2016.03.13-15.51.45:484][738]LogNet: This platform little endian=1
+[2016.03.13-15.51.45:484][738]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: towerbollocks, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1860829494
+[2016.03.13-15.51.45:516][739]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.03.13-15.51.45:516][739]LogNet: Welcomed by server (Level: /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Script/TowerBollocks.TowerBollocksGameMode)
+[2016.03.13-15.51.45:517][739]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Script/TowerBollocks.TowerBollocksGameMode
+[2016.03.13-15.51.45:528][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022ACB56BD80
+[2016.03.13-15.51.45:529][739]Cmd: MEM
+[2016.03.13-15.51.45:541][739]LogMemory: Platform Memory Stats for Windows
+[2016.03.13-15.51.45:541][739]LogMemory: Process Physical Memory: 789.44 MB used, 792.07 MB peak
+[2016.03.13-15.51.45:541][739]LogMemory: Process Virtual Memory: 1527.23 MB used, 1669.77 MB peak
+[2016.03.13-15.51.45:541][739]LogMemory: Physical Memory: 7424.90 MB used, 16324.79 MB total
+[2016.03.13-15.51.45:541][739]LogMemory: Virtual Memory: 2249.31 MB used, 134217728.00 MB total
+[2016.03.13-15.51.45:541][739]LogMemory: 
+[2016.03.13-15.51.45:541][739]Allocator Stats for TBB: (not implemented)
+[2016.03.13-15.51.45:558][739]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.03.13-15.51.45:559][739]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.13-15.51.45:564][739]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.13-16.51.45
+[2016.03.13-15.51.45:564][739]LogWorld: Bringing up level for play took: 0.003373
+[2016.03.13-15.51.45:592][740]LogNet: Client netspeed is 10000
+[2016.03.13-15.51.45:592][740]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.03.13-15.51.45:595][740]LogNet: Join succeeded: 259
+[2016.03.13-15.51.46:242][815]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.46:243][815]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.46:243][815]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.46:243][815]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.46:243][815]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.46:244][815]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.46:244][815]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.46:244][815]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.46:251][816]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.46:518][848]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.47:243][935]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.47:244][935]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.47:244][935]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.47:244][935]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.47:245][935]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.47:245][935]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.47:245][935]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.47:245][935]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.47:253][936]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.47:518][968]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.48:243][ 55]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.48:244][ 55]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.48:244][ 55]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.48:244][ 55]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.48:245][ 55]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.48:246][ 55]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.48:246][ 55]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.48:246][ 55]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.48:253][ 56]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.48:522][ 88]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.48:875][130]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_14.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.51.48:875][130]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_14.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.51.49:250][175]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.49:251][175]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.49:251][175]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.49:251][175]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.49:251][175]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.49:252][175]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.49:252][175]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.49:252][175]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.49:258][176]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.49:527][207]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.50:252][294]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.50:253][294]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.50:253][294]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.50:253][294]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.50:253][294]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.50:254][294]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.50:254][294]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.50:254][294]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.50:262][295]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.50:528][326]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.51:254][413]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.51:255][413]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.51:255][413]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.51:255][413]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.51:256][413]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.51:257][413]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.51:257][413]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.51:257][413]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.51:266][414]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.51:274][415]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.51:283][416]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.51:291][417]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.51:300][418]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.51:533][446]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.52:262][533]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.52:263][533]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.52:263][533]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.52:263][533]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.52:264][533]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.52:265][533]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.52:265][533]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.52:265][533]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.52:272][534]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.52:281][535]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.52:289][536]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.52:297][537]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.52:306][538]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.52:314][539]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.52:322][540]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.52:539][566]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.53:263][653]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.53:264][653]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.53:264][653]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.53:264][653]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.53:264][653]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.53:265][653]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.53:265][653]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.53:265][653]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.53:273][654]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.53:281][655]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.53:540][686]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.54:266][773]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.54:267][773]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.54:267][773]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.54:267][773]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.54:268][773]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.54:268][773]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.54:268][773]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.54:268][773]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.54:276][774]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.54:284][775]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.54:542][806]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.55:271][893]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.55:272][893]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.55:272][893]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.55:272][893]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.55:272][893]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.55:273][893]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.55:273][893]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.55:273][893]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.55:281][894]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.55:290][895]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.55:298][896]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.55:306][897]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.55:315][898]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.55:547][925]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.55:708][944]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_20.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.51.55:708][944]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_20.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.51.56:276][ 12]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.56:276][ 12]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.56:277][ 12]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.56:277][ 12]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.56:277][ 12]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.56:278][ 12]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.56:278][ 12]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.56:278][ 12]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.56:287][ 13]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.56:295][ 14]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.56:304][ 15]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.56:313][ 16]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.56:322][ 17]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.56:556][ 45]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.57:276][131]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.57:278][131]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.57:278][131]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.57:278][131]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.57:278][131]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.57:279][131]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.57:279][131]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.57:279][131]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.57:288][132]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.57:296][133]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.57:304][134]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.57:313][135]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.57:321][136]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.57:329][137]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.57:338][138]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.57:562][165]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.58:280][251]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.58:281][251]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.58:281][251]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.58:281][251]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.58:281][251]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.58:282][251]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:282][251]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.58:282][251]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.58:290][252]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:298][253]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:306][254]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:314][255]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:323][256]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:331][257]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:339][258]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:348][259]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:357][260]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:365][261]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:373][262]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:382][263]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:390][264]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:398][265]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.58:564][285]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.51.59:286][371]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.59:287][371]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.51.59:287][371]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.59:287][371]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.51.59:288][371]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.51.59:288][371]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:288][371]LogTemp:Warning: Took a brick
+[2016.03.13-15.51.59:288][371]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.51.59:297][372]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:305][373]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:314][374]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:323][375]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:331][376]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:340][377]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:348][378]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:356][379]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:365][380]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:373][381]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:382][382]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:390][383]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:399][384]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:407][385]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:416][386]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.51.59:566][404]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.52.00:291][490]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.00:292][490]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.52.00:292][490]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.00:292][490]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.52.00:292][490]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.00:293][490]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:293][490]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.00:293][490]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.52.00:302][491]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:310][492]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:318][493]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:327][494]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:335][495]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:343][496]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:352][497]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:360][498]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:368][499]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:377][500]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:385][501]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:394][502]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:403][503]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:411][504]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.00:568][523]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.52.01:293][608]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.01:294][608]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.52.01:294][608]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.01:294][608]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.52.01:294][608]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.01:296][608]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.01:296][608]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.01:296][608]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.52.01:305][609]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.01:314][610]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.01:324][611]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.01:333][612]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.01:342][613]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.01:351][614]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.01:360][615]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.01:370][616]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.01:571][639]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.52.02:296][725]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.02:297][725]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.52.02:297][725]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.02:297][725]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.52.02:297][725]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.02:298][725]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:298][725]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.02:298][725]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.52.02:307][726]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:315][727]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:324][728]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:332][729]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:340][730]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:348][731]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:357][732]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:365][733]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:373][734]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:382][735]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:390][736]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.02:575][758]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.52.03:302][844]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.03:303][844]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.52.03:303][844]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.03:303][844]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.52.03:303][844]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.03:305][844]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:305][844]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.03:305][844]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.52.03:313][845]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:322][846]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:330][847]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:338][848]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:347][849]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:355][850]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:363][851]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:371][852]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:379][853]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:387][854]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.03:580][877]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.52.04:305][963]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_47 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.04:306][963]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.52.04:306][963]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.04:306][963]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.52.04:306][963]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.04:308][963]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:308][963]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.04:308][963]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.52.04:316][964]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:324][965]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:333][966]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:341][967]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:349][968]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:359][969]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:367][970]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:375][971]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:383][972]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:391][973]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:400][974]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.04:582][996]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.52.05:308][ 81]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.05:310][ 81]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.52.05:310][ 81]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.05:310][ 81]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.52.05:311][ 81]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.05:312][ 81]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:312][ 81]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.05:312][ 81]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.52.05:321][ 82]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:328][ 83]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:337][ 84]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:345][ 85]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:353][ 86]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:362][ 87]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:370][ 88]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:378][ 89]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:387][ 90]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:396][ 91]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:405][ 92]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.05:588][114]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.52.06:315][201]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.06:316][201]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.52.06:316][201]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.06:316][201]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.52.06:317][201]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.06:318][201]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:318][201]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.06:318][201]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.52.06:326][202]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:335][203]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:343][204]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:351][205]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:360][206]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:368][207]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:376][208]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:385][209]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:393][210]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:401][211]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:410][212]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.06:592][234]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.52.07:322][321]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.07:323][321]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.52.07:323][321]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.07:323][321]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.52.07:323][321]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_54 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.52.07:324][321]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:325][321]LogTemp:Warning: Took a brick
+[2016.03.13-15.52.07:325][321]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.52.07:333][322]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:341][323]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:350][324]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:358][325]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:367][326]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:376][327]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:384][328]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:392][329]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:400][330]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:408][331]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.52.07:540][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.52.07:597][347]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.03.13-15.52.07:642][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.52.07:652][347]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.13-15.52.07:652][347]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:53417, Time: 2016.03.13-15.52.07
+[2016.03.13-15.52.07:652][347]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2016.03.13-15.52.07:652][347]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.13-15.52.07:652][347]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.13-15.52.07
+[2016.03.13-15.52.07:652][347]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2016.03.13-15.52.07:655][347]LogExit: GameNetDriver None shut down
+[2016.03.13-15.52.07:655][347]LogExit: GameNetDriver None shut down
+[2016.03.13-15.52.07:656][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022ABFE33F60
+[2016.03.13-15.52.07:656][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022AC79B5260
+[2016.03.13-15.53.59:947][162]LogHotReload: New module detected: UE4Editor-TowerBollocks-512.dll
+[2016.03.13-15.54.00:290][164]LogHotReload: Starting Hot-Reload from IDE
+[2016.03.13-15.54.00:352][164]LogContentBrowser: Native class hierarchy updated for 'TowerBollocks' in 0.0010 seconds. Added 7 classes and 2 folders.
+[2016.03.13-15.54.00:353][164]Warning: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2016.03.13-15.54.00:413][164]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 1901 classes and 342 folders.
+[2016.03.13-15.54.02:999][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.54.02:999][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.13-15.54.03:001][258]PIE: New page: PIE session: FirstPersonExampleMap (Mar 13, 2016, 5:54:03 PM)
+[2016.03.13-15.54.03:001][258]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap
+[2016.03.13-15.54.03:016][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015199s)
+[2016.03.13-15.54.03:017][258]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.13-15.54.03:017][258]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2016.03.13-15.54.03:017][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.016613s)
+[2016.03.13-15.54.03:018][258]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.13-15.54.03:018][258]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.13-15.54.03:036][258]LogInit: XAudio2 using 'Speakers (ASUS Xonar DGX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.13-15.54.03:040][258]LogInit: FAudioDevice initialized.
+[2016.03.13-15.54.03:111][258]LogWorld: Game class is 'TowerBollocksGameMode'
+[2016.03.13-15.54.03:115][258]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.13-16.54.03
+[2016.03.13-15.54.03:115][258]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.03:116][258]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.03:116][258]LogWorld: Bringing up level for play took: 0.003506
+[2016.03.13-15.54.03:117][258]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.13-15.54.03:117][258]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2016.03.13-15.54.03:134][258]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap 0.173
+[2016.03.13-15.54.03:135][258]PIE: New page: PIE session: FirstPersonExampleMap (Mar 13, 2016, 5:54:03 PM)
+[2016.03.13-15.54.03:211][258]LogNet: Browse: 127.0.0.1//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2016.03.13-15.54.03:211][258]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.03.13-15.54.03:211][258]LogNet: Game client on port 7777, rate 10000
+[2016.03.13-15.54.03:211][258]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: towerbollocks, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1860829494
+[2016.03.13-15.54.03:229][258]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap 0.268
+[2016.03.13-15.54.03:230][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.54.03:230][258]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.03.13-15.54.03:230][258]LogNet: Open FirstPersonExampleMap 03/13/16 16:54:03 127.0.0.1
+[2016.03.13-15.54.03:230][258]LogNet: Added client connection.  Remote address = 127.0.0.1:63933
+[2016.03.13-15.54.03:230][258]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.03.13-15.54.03:230][258]LogNet: Remote platform little endian=1
+[2016.03.13-15.54.03:230][258]LogNet: This platform little endian=1
+[2016.03.13-15.54.03:230][258]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: towerbollocks, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 1860829494
+[2016.03.13-15.54.03:243][259]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.03.13-15.54.03:244][259]LogNet: Welcomed by server (Level: /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Script/TowerBollocks.TowerBollocksGameMode)
+[2016.03.13-15.54.03:257][259]LogLoad: LoadMap: 127.0.0.1//Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Script/TowerBollocks.TowerBollocksGameMode
+[2016.03.13-15.54.03:269][259]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022ACBD0E700
+[2016.03.13-15.54.03:271][259]Cmd: MEM
+[2016.03.13-15.54.03:283][259]LogMemory: Platform Memory Stats for Windows
+[2016.03.13-15.54.03:283][259]LogMemory: Process Physical Memory: 787.50 MB used, 809.04 MB peak
+[2016.03.13-15.54.03:283][259]LogMemory: Process Virtual Memory: 1503.31 MB used, 1669.77 MB peak
+[2016.03.13-15.54.03:283][259]LogMemory: Physical Memory: 7429.88 MB used, 16324.79 MB total
+[2016.03.13-15.54.03:283][259]LogMemory: Virtual Memory: 2297.77 MB used, 134217728.00 MB total
+[2016.03.13-15.54.03:283][259]LogMemory: 
+[2016.03.13-15.54.03:283][259]Allocator Stats for TBB: (not implemented)
+[2016.03.13-15.54.03:302][259]LogWorld: PIE: Copying PIE streaming level from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.03.13-15.54.03:303][259]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.13-15.54.03:308][259]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.03.13-16.54.03
+[2016.03.13-15.54.03:308][259]LogWorld: Bringing up level for play took: 0.004070
+[2016.03.13-15.54.03:338][260]LogNet: Client netspeed is 10000
+[2016.03.13-15.54.03:338][260]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.03.13-15.54.03:341][260]LogNet: Join succeeded: 261
+[2016.03.13-15.54.03:978][335]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_56 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.03:980][335]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_57 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.04:248][367]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.04:984][455]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.04:985][455]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.05:251][487]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.05:985][575]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.05:986][575]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.06:252][607]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.06:985][695]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_62 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.06:986][695]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_63 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.07:253][727]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.07:788][791]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: SphereComp
+[2016.03.13-15.54.07:796][792]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: SphereComp
+[2016.03.13-15.54.07:987][815]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_64 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.07:988][815]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_65 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.08:255][847]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.08:321][855]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: SphereComp
+[2016.03.13-15.54.08:329][856]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: SphereComp
+[2016.03.13-15.54.08:987][935]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_66 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.08:988][935]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_67 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.09:255][967]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.09:993][ 55]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_68 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.09:994][ 55]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_69 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.10:260][ 87]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.11:001][175]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_70 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.11:002][175]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_71 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.11:268][207]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.12:008][295]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_72 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.12:010][295]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_73 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.12:276][327]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.13:009][415]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_74 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.13:010][415]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_75 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.13:277][447]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.14:278][567]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.15:278][687]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.15:677][734]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.15:752][743]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.15:768][745]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.15:776][746]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.15:853][755]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.54.15:853][755]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.15:853][755]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.54.15:862][756]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_63.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.15:862][756]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_63.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.15:862][756]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.15:862][756]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.15:862][756]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.54.16:195][796]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.16:202][797]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.16:212][798]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.16:220][799]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.16:228][800]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.16:286][807]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.16:287][807]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.16:295][808]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.16:303][809]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.16:853][875]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_76 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.16:854][875]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_77 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.17:287][927]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.18:293][ 47]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.19:293][167]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.20:143][269]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.20:185][274]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.20:193][275]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.20:211][277]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.54.20:211][277]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.20:211][277]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.54.20:213][277]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_65.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.20:213][277]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_65.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.20:213][277]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.20:213][277]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.20:213][277]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.54.20:296][287]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.20:528][315]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.20:537][316]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.20:545][317]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.20:596][323]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.20:596][323]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.20:604][324]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.20:604][324]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.20:613][325]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.20:613][325]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.20:620][326]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.20:620][326]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.21:211][397]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_78 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.21:212][397]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_79 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.21:296][407]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.22:301][527]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.23:302][647]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.23:485][669]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.23:493][670]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.23:511][672]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.54.23:511][672]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.23:511][672]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.54.23:520][673]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_67.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.23:520][673]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_67.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.23:520][673]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.23:520][673]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.23:520][673]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.54.23:545][676]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.23:687][693]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.23:694][694]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.23:778][704]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.23:787][705]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.23:787][705]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.23:794][706]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.23:794][706]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.24:304][766]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.24:514][791]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_80 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.24:516][791]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_81 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.25:308][886]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.26:119][983]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.54.26:119][983]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.26:119][983]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.54.26:137][985]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_71.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.26:137][985]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_71.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.26:137][985]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.26:137][985]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.26:137][985]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.54.26:236][997]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.26:303][  5]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.26:311][  6]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.26:312][  6]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.26:904][ 77]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.26:912][ 78]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.26:920][ 79]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.26:954][ 83]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.26:962][ 84]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.26:970][ 85]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.27:119][103]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_82 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.27:121][103]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_83 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.27:312][126]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.27:319][127]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.27:387][135]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.27:890][195]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.28:314][246]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.29:317][365]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.30:318][484]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.30:968][562]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.31:085][576]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.31:094][577]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.31:237][594]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: SphereComp
+[2016.03.13-15.54.31:238][594]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: SphereComp
+[2016.03.13-15.54.31:322][604]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.31:597][637]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.31:605][638]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.31:613][639]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.31:614][639]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.31:614][639]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.31:622][640]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.31:622][640]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.31:631][641]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.31:631][641]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.31:638][642]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.31:638][642]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.32:064][693]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.32:155][704]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.32:155][704]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.32:164][705]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.32:164][705]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.32:322][724]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.32:415][735]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.54.32:415][735]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.32:415][735]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.54.32:416][735]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_69.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.32:416][735]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_69.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.32:416][735]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.32:416][735]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.32:416][735]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.54.32:867][789]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.32:875][790]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.32:875][790]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.32:875][790]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.32:883][791]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.32:883][791]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.32:883][791]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.32:891][792]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.32:891][792]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.32:891][792]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.33:326][844]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.33:416][855]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_84 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.33:418][855]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_85 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.34:326][964]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.35:203][ 67]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: SphereComp
+[2016.03.13-15.54.35:204][ 67]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: SphereComp
+[2016.03.13-15.54.35:328][ 82]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.35:805][139]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.36:021][164]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.54.36:021][164]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.36:021][164]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.54.36:022][164]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_75.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.36:022][164]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_75.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.36:022][164]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.36:022][164]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.36:022][164]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.54.36:331][201]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.36:631][237]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.36:640][238]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.36:648][239]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.36:648][239]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.36:648][239]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.36:655][240]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.36:655][240]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.36:656][240]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.37:022][283]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_86 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.37:023][283]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_87 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.37:331][320]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.38:338][440]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.38:797][495]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.38:889][506]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.38:897][507]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.38:914][509]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.38:922][510]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.39:338][560]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.40:340][679]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.41:343][799]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.42:293][913]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.42:300][914]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.42:310][915]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.42:318][916]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.42:325][917]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.42:342][919]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.42:417][928]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.42:425][929]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.43:343][ 39]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.44:110][131]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.44:210][143]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.44:235][146]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.44:343][159]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.45:343][277]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.54.45:343][277]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.45:343][277]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.54.45:351][278]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.45:351][278]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.45:351][278]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.45:351][278]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.54.45:501][296]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.45:510][297]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.45:517][298]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.45:534][300]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.45:542][301]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.45:617][310]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.45:618][310]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.45:626][311]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.45:635][312]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.46:343][397]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_88 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.46:344][397]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_89 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.46:352][398]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.46:794][451]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.46:802][452]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.46:810][453]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.46:818][454]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.46:827][455]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.46:835][456]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.47:352][518]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.48:022][598]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.54.48:022][598]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.48:022][598]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.54.48:039][600]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_79.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.48:039][600]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_79.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.48:039][600]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.48:039][600]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.48:039][600]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.54.48:048][601]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.48:056][602]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.48:219][621]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.48:226][622]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.48:227][622]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.48:235][623]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.48:235][623]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.48:243][624]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.48:243][624]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.48:251][625]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.48:251][625]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.48:252][625]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.48:260][626]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.48:269][627]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.48:276][628]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.48:360][638]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.49:027][718]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_90 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.49:028][718]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_91 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.49:367][758]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.50:368][878]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.50:635][910]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.50:644][911]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.50:735][922]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.50:743][923]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.51:138][970]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Block
+[2016.03.13-15.54.51:138][970]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.51:138][970]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Success
+[2016.03.13-15.54.51:148][971]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_73.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.51:148][971]PIE:Warning: Warning Invalid Simulate Options: Body (BrickActor_C_73.Block Cube) is set to simulate physics but Collision Enabled is incompatible
+[2016.03.13-15.54.51:148][971]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Block
+[2016.03.13-15.54.51:148][971]LogTemp:Warning: Took a brick
+[2016.03.13-15.54.51:148][971]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Success
+[2016.03.13-15.54.51:373][998]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.51:598][ 25]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: CollisionCylinder
+[2016.03.13-15.54.51:598][ 25]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: Weapon
+[2016.03.13-15.54.51:605][ 26]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: CollisionCylinder
+[2016.03.13-15.54.51:605][ 26]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: Weapon
+[2016.03.13-15.54.51:606][ 26]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.51:614][ 27]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.51:623][ 28]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Client 1: PlayerMesh
+[2016.03.13-15.54.51:630][ 29]LogBlueprintUserMessages: [MyBrickDispenserActor_C_1] Server: PlayerMesh
+[2016.03.13-15.54.52:141][ 90]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_92 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.52:142][ 90]LogActor:Warning: BrickActor_C /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BrickActor_C_93 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.13-15.54.52:375][118]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor MyBrickDispenserActor_C_1. Function SpawnBrick will not be processed.
+[2016.03.13-15.54.53:141][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.54.53:194][210]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.03.13-15.54.53:238][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.13-15.54.53:248][210]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.13-15.54.53:248][210]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:63933, Time: 2016.03.13-15.54.53
+[2016.03.13-15.54.53:248][210]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2016.03.13-15.54.53:248][210]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.03.13-15.54.53:248][210]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.03.13-15.54.53
+[2016.03.13-15.54.53:248][210]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2016.03.13-15.54.53:252][210]LogExit: GameNetDriver None shut down
+[2016.03.13-15.54.53:252][210]LogExit: GameNetDriver None shut down
+[2016.03.13-15.54.53:253][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022A98C8CEA0
+[2016.03.13-15.54.53:253][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022ACBD0FF60
+[2016.03.13-15.54.58:332][787]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileComp) Not registered. Aborting.
+[2016.03.13-15.54.58:333][787]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.13-15.54.58:413][787]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.13-15.54.58:599][788]Cmd: QUIT_EDITOR
+[2016.03.13-15.54.59:037][788]LogExit: Preparing to exit.
+[2016.03.13-15.54.59:413][788]LogExit: Editor shut down
+[2016.03.13-15.54.59:413][788]LogExit: Transaction tracking system shut down
+[2016.03.13-15.54.59:414][788]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022AC2F089A0
+[2016.03.13-15.54.59:414][788]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022AC3B87920
+[2016.03.13-15.54.59:414][788]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022AC36B6A20
+[2016.03.13-15.54.59:415][788]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000022AE32D7600
+[2016.03.13-15.54.59:530][788]LogExit: Object subsystem successfully closed.
+[2016.03.13-15.54.59:546][788]LogD3D11RHI: Shutdown
+[2016.03.13-15.54.59:546][788]LogD3D11RHI: CleanupD3DDevice
+[2016.03.13-15.54.59:592][788]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.13-15.54.59:602][788]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.03.13-15.54.59:602][788]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.03.13-15.54.59:602][788]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.03.13-15.54.59:602][788]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.03.13-15.54.59:602][788]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2016.03.13-15.54.59:603][788]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2016.03.13-15.55.00:204][788]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2016.03.13-15.55.00:205][788]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2016.03.13-15.55.00:316][788]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2016.03.13-15.55.00:316][788]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.03.13-15.55.00:316][788]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.03.13-15.55.00:316][788]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.03.13-15.55.00:316][788]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.03.13-15.55.00:316][788]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.03.13-15.55.00:316][788]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.03.13-15.55.00:316][788]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.03.13-15.55.00:332][788]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.03.13-15.55.00:333][788]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.03.13-15.55.00:334][788]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.03.13-15.55.00:447][788]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.03.13-15.55.00:447][788]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.03.13-15.55.00:447][788]LogModuleManager: Shutting down and abandoning module TowerBollocks (87)
+[2016.03.13-15.55.00:447][788]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.13-15.55.00:548][788]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.13-15.55.00:548][788]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.13-15.55.00:548][788]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.13-15.55.00:551][788]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.13-15.55.00:553][788]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.13-15.55.00:553][788]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.13-15.55.00:553][788]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.13-15.55.00:553][788]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.13-15.55.00:553][788]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.13-15.55.00:553][788]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.13-15.55.00:553][788]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.13-15.55.00:553][788]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.13-15.55.00:553][788]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.13-15.55.00:553][788]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.13-15.55.00:584][788]LogDerivedDataCache: Shutdown
+[2016.03.13-15.55.00:584][788]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.13-15.55.00:585][788]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.13-15.55.02:587][788]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.13-15.55.02:589][788]LogExit: Exiting.
+[2016.03.13-15.55.02:590][788]Log file closed, 03/13/16 16:55:02
+=======
 ﻿[2016.03.13-15.24.01:732][  0]Log file open, 03/13/16 16:24:01
 [2016.03.13-15.24.01:732][  0]LogInit:Display: Running engine for game: TowerBollocks
 [2016.03.13-15.24.01:732][  0]LogPlatformFile: Not using cached read wrapper
@@ -3216,6 +4533,7 @@
 [2016.03.13-15.45.24:745][806]LogActor:Warning: BrickActor /Game/UEDPIE_0_Arena.Arena:PersistentLevel.BrickActor_357 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
 [2016.03.13-15.45.24:939][815]LogBlueprintUserMessages: [MyBrickDispenserActor_2] Block
 [2016.03.13-15.45.24:939][815]LogTemp:Warning: Took a brick
+<<<<<<< HEAD
 [2016.03.13-15.45.24:939][815]LogBlueprintUserMessages: [MyBrickDispenserActor_2] Success
 [2016.03.13-15.45.25:943][859]LogActor:Warning: BrickActor /Game/UEDPIE_0_Arena.Arena:PersistentLevel.BrickActor_358 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
 [2016.03.13-15.45.29:622][ 22]LogBlueprintUserMessages: [MyBrickDispenserActor_2] Block
@@ -36118,3 +37436,7 @@ BrickDispenserActor.SpawnBrick
 [2016.03.13-16.01.55:103][742]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
 [2016.03.13-16.01.55:103][742]LogWindows: FPlatformMisc::RequestExit(1)
 [2016.03.13-16.01.55:103][742]Log file closed, 03/13/16 17:01:55
+=======
+[2016.03.13-15.45.24:939][815]LogBlueprintUserMes
+>>>>>>> 92b1f308f3f4186ceb06ec586c6db79f88d8eeed
+>>>>>>> c628e663b40571021e9c074ab77905f64e3f8ac8
