@@ -45,6 +45,7 @@ void ABrickDispenserActor::Tick( float DeltaTime )
 void ABrickDispenserActor::TookABrick()
 {
 	currentBrick--;
+	UE_LOG(LogTemp, Warning, TEXT("Took a brick"));
 }
 
 void ABrickDispenserActor::SpawnBrick()
