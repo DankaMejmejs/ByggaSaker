@@ -29,8 +29,11 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
-	UFUNCTION(Server, Unreliable, WithValidation)
-		void bos(ABrickActor* brickActorRef, FVector location);
+	UFUNCTION(Server, Reliable, WithValidation)
+		void setBrickPosition(ABrickActor* actorRef, FVector position);
+
+	UFUNCTION(Server, Reliable, WithValidation)
+		void addBrickRotation(ABrickActor* actorRef, FQuat rotation);
 
 protected:
 	

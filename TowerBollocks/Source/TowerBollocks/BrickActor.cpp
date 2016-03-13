@@ -9,6 +9,9 @@ ABrickActor::ABrickActor()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	
+	// Required to replicate variables
+	bReplicates = true;
 
 	block = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Block"));
 	const ConstructorHelpers::FObjectFinder<UStaticMesh> BlockMesh(TEXT("/Engine/BasicShapes/Cube"));
@@ -37,8 +40,13 @@ void ABrickActor::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
 
-	/*
-	if (held) {
+	// If not server
+	if (Role < ROLE_Authority)
+		SetActorTransform(transform);
+	else
+		transform = GetTransform();
+
+	if (isHeld) {
 		block->BodyInstance.bSimulatePhysics = false;
 		block->BodyInstance.SetEnableGravity(false);
 		block->SetCollisionEnabled(ECollisionEnabled::NoCollision);
@@ -49,10 +57,9 @@ void ABrickActor::Tick( float DeltaTime )
 		block->BodyInstance.bSimulatePhysics = true;
 		block->BodyInstance.SetEnableGravity(true);
 		block->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-
 		UE_LOG(LogTemp, Warning, TEXT("Not held"));
 	}
-	*/
+	
 }
 
 void ABrickActor::StartHover() {
@@ -63,21 +70,21 @@ void ABrickActor::EndHover() {
 	EventEndHover();
 }
 
+// Most likely called via RPC on server
 void ABrickActor::BeginHold(){
+	isHeld = true;
 	EventBeginHold();
-	ServerSetHeld(true);
 }
 
-void ABrickActor::EndHold(){
+// Most likely called via RPC on server
+void ABrickActor::EndHold() {
+	isHeld = false;
 	EventEndHold();
-	ServerSetHeld(false);
 }
 
 
-bool ABrickActor::ServerSetHeld_Validate(bool held) {
-	return true; 
+// Some shit that is needed for replicated variables
+void ABrickActor::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const {
+	DOREPLIFETIME(ABrickActor, isHeld);
+	DOREPLIFETIME(ABrickActor, transform);
 }
-void ABrickActor::ServerSetHeld_Implementation(bool held) {
-	this->held = held;
-}
-

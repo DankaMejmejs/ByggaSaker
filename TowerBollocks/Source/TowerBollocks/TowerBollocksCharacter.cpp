@@ -28,6 +28,10 @@ ATowerBollocksCharacter::ATowerBollocksCharacter()
 
 	// Note: The ProjectileClass and the skeletal mesh/anim blueprints for Mesh1P are set in the
 	// derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	
+
+
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -61,22 +65,13 @@ void ATowerBollocksCharacter::SetupPlayerInputComponent(class UInputComponent* I
 	InputComponent->BindAction("ScrollDown", IE_Pressed, this, &ATowerBollocksCharacter::ScrollDown);
 }
 
-void ATowerBollocksCharacter::bos_Implementation(ABrickActor* ref, FVector location) {
-	if (ref != nullptr)
-		ref->SetActorLocation(location);
-}
-
-bool ATowerBollocksCharacter::bos_Validate(ABrickActor* brickActorRef) {
-	return true;
-}
-
 void ATowerBollocksCharacter::AddControllerYawInput(float value) {
 	if (!IsValid(brickActorRef) || !rotateObject) {
 		Super::AddControllerYawInput(value);
 		return;
 	}
 
-	brickActorRef->AddActorWorldRotation(FQuat::MakeFromEuler(FVector(0, 0, -value)));
+	addBrickRotation(brickActorRef, FQuat::MakeFromEuler(FVector(0, 0, -value)));
 }
 void ATowerBollocksCharacter::AddControllerPitchInput(float value) {
 	if (!IsValid(brickActorRef) || !rotateObject) {
@@ -84,22 +79,40 @@ void ATowerBollocksCharacter::AddControllerPitchInput(float value) {
 		return;
 	}
 
-	brickActorRef->AddActorLocalRotation(FQuat::MakeFromEuler(FVector(0, -value, 0)));
+	addBrickRotation(brickActorRef, FQuat::MakeFromEuler(FVector(0, -value, 0)));
+}
+
+void ATowerBollocksCharacter::setBrickPosition_Implementation(ABrickActor* actorRef, FVector position) {
+	actorRef->SetActorLocation(position);
+}
+
+bool ATowerBollocksCharacter::setBrickPosition_Validate(ABrickActor* actorRef, FVector position) {
+	return true;
+}
+
+void ATowerBollocksCharacter::addBrickRotation_Implementation(ABrickActor* actorRef, FQuat rotation) {
+	actorRef->AddActorLocalRotation(rotation);
+}
+
+bool ATowerBollocksCharacter::addBrickRotation_Validate(ABrickActor* actorRef, FQuat rotation) {
+	return true;
 }
 
 void ATowerBollocksCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 
 	if (IsValid(brickActorRef) && hold)
-		bos(brickActorRef, FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));//brickActorRef->SetActorLocation(FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));
+		setBrickPosition(brickActorRef, FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));
+		//brickActorRef->SetActorLocation(FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));
 }
 
 void ATowerBollocksCharacter::OnClick()
 {
-
 	//FHitResult hit(ForceInit);
 	//FVector CamLoc;
 	//FRotator CamRot;
+
+	
 
 	//holdDistance = 200;
 
