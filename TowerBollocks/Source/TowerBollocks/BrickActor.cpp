@@ -24,18 +24,17 @@ ABrickActor::ABrickActor()
 
 	used = false;
 	block->BodyInstance.bSimulatePhysics = true;
-	//block->BodyInstance.bLockXTranslation = true;
-	//block->BodyInstance.bLockYTranslation = true;
-	//block->BodyInstance.bLockZRotation = true;
-	//block->BodyInstance.bLockYRotation = true;
-	//block->BodyInstance.bLockXRotation = true;
+	block->BodyInstance.bLockZRotation = true;
+	block->BodyInstance.bLockYRotation = true;
+	block->BodyInstance.bLockXRotation = true;
 }
 
 // Called when the game starts or when spawned
 void ABrickActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	block->BodyInstance.bLockXTranslation = false;
+	block->BodyInstance.bLockYTranslation = false;
 }
 
 // Called every frame
