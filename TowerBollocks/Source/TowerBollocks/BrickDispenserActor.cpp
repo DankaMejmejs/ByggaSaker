@@ -9,7 +9,7 @@ ABrickDispenserActor::ABrickDispenserActor()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	MaxBrick = 10;
+	MaxBrick = 5;
 	currentBrick = 0;
 
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
@@ -18,11 +18,11 @@ ABrickDispenserActor::ABrickDispenserActor()
 	triggerBox->SetCollisionProfileName(TEXT("Trigger"));
 
 
-	static ConstructorHelpers::FObjectFinder<UBlueprint> Bricks(TEXT("/Game/BrickActor"));
+	/*static ConstructorHelpers::FObjectFinder<UBlueprint> Bricks(TEXT("/Game/BrickActor"));
 	if (Bricks.Object != NULL)
 	{
 		print = Bricks.Object;
-	}
+	}*/
 }
 
 // Called when the game starts or when spawned
@@ -59,7 +59,8 @@ void ABrickDispenserActor::TookABrick(ABrickActor* brick)
 void ABrickDispenserActor::SpawnBrick_Implementation()
 {
 	currentBrick++;
-	ABrickActor* brick = GetWorld()->SpawnActor<ABrickActor>((UClass*)print->GeneratedClass, GetTransform().GetLocation(), FRotator(), FActorSpawnParameters());
+	EventSpawnBrick();
+	//ABrickActor* brick = GetWorld()->SpawnActor<ABrickActor>((UClass*)print->GeneratedClass, GetTransform().GetLocation(), FRotator(), FActorSpawnParameters());
 }
 
 bool ABrickDispenserActor::SpawnBrick_Validate()

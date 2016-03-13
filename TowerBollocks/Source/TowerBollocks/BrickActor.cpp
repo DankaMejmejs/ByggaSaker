@@ -35,6 +35,8 @@ void ABrickActor::BeginPlay()
 	Super::BeginPlay();
 	block->BodyInstance.bLockXTranslation = false;
 	block->BodyInstance.bLockYTranslation = false;
+
+
 }
 
 // Called every frame

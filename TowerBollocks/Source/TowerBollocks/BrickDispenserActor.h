@@ -29,6 +29,8 @@ public:
 	UFUNCTION(Server, Reliable, WithValidation)
 		void SpawnBrick();
 	
+	UFUNCTION(BlueprintImplementableEvent, Category = Spawn)
+		void EventSpawnBrick();
 	
 private:
 	//ABrickActor& brick;
