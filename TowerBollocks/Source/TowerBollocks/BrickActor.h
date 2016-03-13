@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Net/UnrealNetwork.h"
 #include "GameFramework/Actor.h"
 #include "BrickActor.generated.h"
 
@@ -44,17 +45,16 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = Interaction)
 		void EndHold();
-
-	UFUNCTION(Server, Unreliable, WithValidation)
-		void ServerSetHeld(bool held);
-
+	
 private: 
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* block;
 
-	UPROPERTY(EditAnywhere)
-		bool held = false;
-	
+	UPROPERTY(Replicated)
+		bool isHeld = false;
+
+	UPROPERTY(Replicated)
+		FTransform transform;
 
 	bool used;
 };
