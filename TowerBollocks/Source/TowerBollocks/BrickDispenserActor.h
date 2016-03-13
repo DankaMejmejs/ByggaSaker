@@ -28,13 +28,14 @@ public:
 	
 	UFUNCTION(Server, Reliable, WithValidation)
 		void SpawnBrick();
-
+	
 	
 private:
 	//ABrickActor& brick;
 	UPROPERTY(EditAnywhere)
 		UBoxComponent* triggerBox;
 	
+	UBlueprint* print;
 
 	int32 MaxBrick;
 	int32 currentBrick;
