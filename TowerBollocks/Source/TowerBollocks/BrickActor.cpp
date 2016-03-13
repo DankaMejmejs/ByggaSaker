@@ -50,14 +50,12 @@ void ABrickActor::Tick( float DeltaTime )
 		block->BodyInstance.bSimulatePhysics = false;
 		block->BodyInstance.SetEnableGravity(false);
 		block->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-		UE_LOG(LogTemp, Warning, TEXT("Held"));
 
 	}
 	else {
 		block->BodyInstance.bSimulatePhysics = true;
 		block->BodyInstance.SetEnableGravity(true);
 		block->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
-		UE_LOG(LogTemp, Warning, TEXT("Not held"));
 	}
 	
 }
