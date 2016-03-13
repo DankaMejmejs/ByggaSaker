@@ -35,6 +35,12 @@ public:
 	UFUNCTION(Server, Reliable, WithValidation)
 		void addBrickRotation(ABrickActor* actorRef, FQuat rotation);
 
+	UFUNCTION(Server, Reliable, WithValidation)
+		void serverFire();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = Fire)
+		void OnFire();
+
 protected:
 	
 	virtual void AddControllerPitchInput(float value) override;
@@ -45,6 +51,7 @@ protected:
 
 	/** Fires a projectile. */
 	void OnClick();
+	void AltOnClick();
 
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);

@@ -29,9 +29,6 @@ ATowerBollocksCharacter::ATowerBollocksCharacter()
 	// Note: The ProjectileClass and the skeletal mesh/anim blueprints for Mesh1P are set in the
 	// derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
-	
-
-
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -49,6 +46,7 @@ void ATowerBollocksCharacter::SetupPlayerInputComponent(class UInputComponent* I
 	if( EnableTouchscreenMovement(InputComponent) == false )
 	{
 		InputComponent->BindAction("Fire", IE_Pressed, this, &ATowerBollocksCharacter::OnClick);
+		InputComponent->BindAction("AltFire", IE_Pressed, this, &ATowerBollocksCharacter::AltOnClick);
 	}
 	
 	InputComponent->BindAxis("MoveForward", this, &ATowerBollocksCharacter::MoveForward);
@@ -132,6 +130,17 @@ void ATowerBollocksCharacter::OnClick()
 	//{
 	//	UE_LOG(LogTemp, Warning, TEXT("A brick is just a brick son"));
 	//}
+}
+
+void ATowerBollocksCharacter::AltOnClick() {
+	OnFire();
+}
+
+void ATowerBollocksCharacter::serverFire_Implementation() {
+}
+
+bool ATowerBollocksCharacter::serverFire_Validate() {
+	return true;
 }
 
 void ATowerBollocksCharacter::ScrollUp() {
