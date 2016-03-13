@@ -21,6 +21,8 @@ ABrickActor::ABrickActor()
 	FTransform trans = FTransform();
 	trans.SetScale3D(FVector(1.0f, 0.5f, 0.5f));
 	block->SetRelativeTransform(trans);
+
+	used = false;
 	block->BodyInstance.bSimulatePhysics = true;
 	//block->BodyInstance.bLockXTranslation = true;
 	//block->BodyInstance.bLockYTranslation = true;
@@ -88,4 +90,14 @@ void ABrickActor::EndHold() {
 void ABrickActor::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const {
 	DOREPLIFETIME(ABrickActor, isHeld);
 	DOREPLIFETIME(ABrickActor, transform);
+}
+
+bool ABrickActor::GetUsed()
+{
+	return used;
+}
+
+void ABrickActor::SetUsed(bool val)
+{
+	used = val;
 }

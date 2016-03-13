@@ -42,9 +42,10 @@ void ABrickDispenserActor::Tick( float DeltaTime )
 	}
 }
 
-void ABrickDispenserActor::TookABrick()
+void ABrickDispenserActor::TookABrick(ABrickActor* brick)
 {
 	currentBrick--;
+	brick->SetUsed(true);
 	UE_LOG(LogTemp, Warning, TEXT("Took a brick"));
 }
 
@@ -57,7 +58,7 @@ void ABrickDispenserActor::SpawnBrick_Implementation()
 	pos.SetLocation(GetTransform().GetLocation());
 	pos.SetScale3D(brick->GetTransform().GetScale3D());
 	brick->SetActorTransform(pos);
-
+	
 }
 
 bool ABrickDispenserActor::SpawnBrick_Validate()
