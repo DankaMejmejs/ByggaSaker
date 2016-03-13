@@ -1,10 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-
 #include "Net/UnrealNetwork.h"
 #include "GameFramework/Actor.h"
 #include "BrickActor.generated.h"
+
+class ATowerBollocksCharacter;
 
 UCLASS()
 class TOWERBOLLOCKS_API ABrickActor : public AActor
@@ -41,7 +42,7 @@ public:
 
 	//UFUNCTION(BlueprintCallable, Server, Unreliable, WithValidation, Category = Interaction)
 	UFUNCTION(BlueprintCallable, Category = Interaction)
-		void BeginHold();
+		void BeginHold(ATowerBollocksCharacter* val);
 
 	UFUNCTION(BlueprintCallable, Category = Interaction)
 		void EndHold();
@@ -51,6 +52,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = Interaction)
 		bool GetUsed();
 	void SetUsed(bool val);
+
+	UPROPERTY(BlueprintReadOnly, Replicated)
+		ATowerBollocksCharacter* ownerActor;
 	
 private: 
 	UPROPERTY(EditAnywhere)
@@ -63,6 +67,8 @@ private:
 		FTransform transform;
 
 	bool used;
+
+	
 
 	
 };

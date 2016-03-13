@@ -16,6 +16,13 @@ ABrickDispenserActor::ABrickDispenserActor()
 	triggerBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Trigger"));
 	triggerBox->AttachParent = RootComponent;
 	triggerBox->SetCollisionProfileName(TEXT("Trigger"));
+
+
+	static ConstructorHelpers::FObjectFinder<UBlueprint> Bricks(TEXT("/Game/BrickActor"));
+	if (Bricks.Object != NULL)
+	{
+		print = Bricks.Object;
+	}
 }
 
 // Called when the game starts or when spawned
@@ -52,13 +59,7 @@ void ABrickDispenserActor::TookABrick(ABrickActor* brick)
 void ABrickDispenserActor::SpawnBrick_Implementation()
 {
 	currentBrick++;
-
-	ABrickActor* brick = GetWorld()->SpawnActor<ABrickActor>(ABrickActor::StaticClass());
-	FTransform pos = FTransform();
-	pos.SetLocation(GetTransform().GetLocation());
-	pos.SetScale3D(brick->GetTransform().GetScale3D());
-	brick->SetActorTransform(pos);
-	
+	ABrickActor* brick = GetWorld()->SpawnActor<ABrickActor>((UClass*)print->GeneratedClass, GetTransform().GetLocation(), FRotator(), FActorSpawnParameters());
 }
 
 bool ABrickDispenserActor::SpawnBrick_Validate()

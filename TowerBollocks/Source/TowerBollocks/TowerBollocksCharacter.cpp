@@ -29,9 +29,7 @@ ATowerBollocksCharacter::ATowerBollocksCharacter()
 	// Note: The ProjectileClass and the skeletal mesh/anim blueprints for Mesh1P are set in the
 	// derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 
-	
-
-
+	pickedUpObject = false;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -49,6 +47,7 @@ void ATowerBollocksCharacter::SetupPlayerInputComponent(class UInputComponent* I
 	if( EnableTouchscreenMovement(InputComponent) == false )
 	{
 		InputComponent->BindAction("Fire", IE_Pressed, this, &ATowerBollocksCharacter::OnClick);
+		InputComponent->BindAction("AltFire", IE_Pressed, this, &ATowerBollocksCharacter::AltOnClick);
 	}
 	
 	InputComponent->BindAxis("MoveForward", this, &ATowerBollocksCharacter::MoveForward);
@@ -83,7 +82,7 @@ void ATowerBollocksCharacter::AddControllerPitchInput(float value) {
 }
 
 void ATowerBollocksCharacter::setBrickPosition_Implementation(ABrickActor* actorRef, FVector position) {
-	actorRef->SetActorLocation(position);
+		actorRef->SetActorLocation(position);
 }
 
 bool ATowerBollocksCharacter::setBrickPosition_Validate(ABrickActor* actorRef, FVector position) {
@@ -108,7 +107,7 @@ bool ATowerBollocksCharacter::addBrickRotation_Validate(ABrickActor* actorRef, F
 void ATowerBollocksCharacter::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 
-	if (IsValid(brickActorRef) && hold)
+	if (IsValid(brickActorRef) && hold && pickedUpObject)
 		setBrickPosition(brickActorRef, FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));
 		//brickActorRef->SetActorLocation(FirstPersonCameraComponent->GetComponentLocation() + (FirstPersonCameraComponent->GetForwardVector() * holdDistance));
 }
@@ -139,6 +138,17 @@ void ATowerBollocksCharacter::OnClick()
 	//{
 	//	UE_LOG(LogTemp, Warning, TEXT("A brick is just a brick son"));
 	//}
+}
+
+void ATowerBollocksCharacter::AltOnClick() {
+	OnFire();
+}
+
+void ATowerBollocksCharacter::serverFire_Implementation() {
+}
+
+bool ATowerBollocksCharacter::serverFire_Validate() {
+	return true;
 }
 
 void ATowerBollocksCharacter::ScrollUp() {
