@@ -26,7 +26,8 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, Category = Interaction)
 		void EventTakeABrick();
 	
-	void SpawnBrick();
+	UFUNCTION(Server, Reliable, WithValidation)
+		void SpawnBrick();
 
 	
 private:

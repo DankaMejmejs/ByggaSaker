@@ -48,7 +48,7 @@ void ABrickDispenserActor::TookABrick()
 	UE_LOG(LogTemp, Warning, TEXT("Took a brick"));
 }
 
-void ABrickDispenserActor::SpawnBrick()
+void ABrickDispenserActor::SpawnBrick_Implementation()
 {
 	currentBrick++;
 
@@ -58,5 +58,10 @@ void ABrickDispenserActor::SpawnBrick()
 	pos.SetScale3D(brick->GetTransform().GetScale3D());
 	brick->SetActorTransform(pos);
 
+}
+
+bool ABrickDispenserActor::SpawnBrick_Validate()
+{
+	return true;
 }
 
