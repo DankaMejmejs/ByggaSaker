@@ -45,6 +45,12 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = Interaction)
 		void EndHold();
+
+		
+
+	UFUNCTION(BlueprintCallable, Category = Interaction)
+		bool GetUsed();
+	void SetUsed(bool val);
 	
 private: 
 	UPROPERTY(EditAnywhere)
@@ -57,4 +63,6 @@ private:
 		FTransform transform;
 
 	bool used;
+
+	
 };

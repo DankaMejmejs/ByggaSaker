@@ -21,7 +21,7 @@ public:
 	virtual void Tick( float DeltaSeconds ) override;
 
 	UFUNCTION(BlueprintCallable, Category = Interaction)
-	void TookABrick();
+	void TookABrick(ABrickActor* brick);
 
 	UFUNCTION(BlueprintImplementableEvent, Category = Interaction)
 		void EventTakeABrick();
