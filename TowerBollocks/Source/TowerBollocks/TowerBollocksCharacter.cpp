@@ -91,7 +91,14 @@ bool ATowerBollocksCharacter::setBrickPosition_Validate(ABrickActor* actorRef, F
 }
 
 void ATowerBollocksCharacter::addBrickRotation_Implementation(ABrickActor* actorRef, FQuat rotation) {
-	actorRef->AddActorLocalRotation(rotation);
+	FRotator relativeRotation = GetFirstPersonCameraComponent()->GetComponentRotation();;
+	FRotator rotationRotator = rotation.Rotator();
+
+	actorRef->AddActorWorldRotation(relativeRotation);
+
+	actorRef->AddActorWorldRotation(FRotator(-rotationRotator.Pitch, rotationRotator.Roll, rotationRotator.Yaw));
+
+	actorRef->AddActorWorldRotation(-relativeRotation);
 }
 
 bool ATowerBollocksCharacter::addBrickRotation_Validate(ABrickActor* actorRef, FQuat rotation) {
